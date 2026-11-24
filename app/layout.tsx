@@ -7,6 +7,7 @@ const _geist = Geist({ subsets: ["latin"] });
 const _geistMono = Geist_Mono({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
+  metadataBase: new URL('http://localhost:3000'),
   title: 'Mars Rover Manipal',
   description: 'Mars Rover Manipal - A multi-disciplinary student team designing and building next generation rovers for extraterrestrial exploration',
   icons: {

@@ -1,0 +1,2474 @@
+{
+  "2016": [
+    {
+      "id": 1,
+      "name": "ATHARVA GUPTA",
+      "img": "/team-16/atharva.jpg",
+      "pos": "Founder",
+      "linkedin": "https://www.linkedin.com/in/atharva-gupta/",
+      "year": "2016"
+    },
+    {
+      "id": 2,
+      "name": "AASHISH GOEL",
+      "img": "/team-16/aashish.jpg",
+      "pos": "Team Manager",
+      "linkedin": "https://www.linkedin.com/in/ashish-goel-b2462b96/",
+      "year": "2016"
+    },
+    {
+      "id": 3,
+      "name": "SAURABH KUMAR",
+      "img": "/team-16/saurabh.jpeg",
+      "pos": "Mechanical Head",
+      "linkedin": "https://www.linkedin.com/in/saurabh-0099/",
+      "year": "2016"
+    },
+    {
+      "id": 4,
+      "name": "AAKASH GOYAL",
+      "img": "/team-16/aakash.jpg",
+      "pos": "Electronics Head",
+      "linkedin": "https://www.linkedin.com/in/aakash-goyal-a73b63a5/",
+      "year": "2016"
+    },
+    {
+      "id": 5,
+      "name": "AKHIL KAVACHERI",
+      "img": "/team-16/akhil.jpg",
+      "pos": "Mechanical Division Member",
+      "linkedin": "https://www.linkedin.com/in/akhil-kavacheri-202502106/",
+      "year": "2016"
+    },
+    {
+      "id": 6,
+      "name": "AKSHAY SAXENA",
+      "img": "/team-16/akshay.jpg",
+      "pos": "Mechanical Division Member",
+      "linkedin": "https://www.linkedin.com/in/akshay-saxena-00223493/",
+      "year": "2016"
+    },
+    {
+      "id": 7,
+      "name": "PRASHANTH SAGAOKAR",
+      "img": "/team-16/prashant.jfif",
+      "pos": "Mechanical Division Member",
+      "linkedin": "https://www.linkedin.com/in/prashant-sagaokar-47650b82/",
+      "year": "2016"
+    },
+    {
+      "id": 8,
+      "name": "SRIKAR VUPPALANCHI",
+      "img": "/team-16/srikar.jpg",
+      "pos": "Electronics Division Member",
+      "linkedin": "https://www.linkedin.com/in/srikarvuppalanchi/",
+      "year": "2016"
+    },
+    {
+      "id": 9,
+      "name": "VAIBHAV MANI",
+      "img": "/team-16/vaibhav.jpg",
+      "pos": "Electronics Division Member",
+      "linkedin": "hhttps://www.linkedin.com/in/vaibhavmani/",
+      "year": "2016"
+    }
+  ],
+  "2017": [
+    {
+      "id": 1,
+      "name": "AKHIL KAVACHERI",
+      "img": "/team-16/akhil.jpg",
+      "pos": "Team Leader",
+      "linkedin": "https://www.linkedin.com/in/akhil-kavacheri-202502106/",
+      "year": "2017"
+    },
+    {
+      "id": 2,
+      "name": "SRIKAR VUPPALANCHI",
+      "img": "/team-16/srikar.jpg",
+      "pos": "Technical Head",
+      "linkedin": "https://www.linkedin.com/in/srikarvuppalanchi/",
+      "year": "2017"
+    },
+    {
+      "id": 3,
+      "name": "SOHAM BHATTACHARYA",
+      "img": "/team-17/soham.jpg",
+      "pos": "Mechanical Head",
+      "linkedin": "https://www.linkedin.com/in/soham-bhattacharyya-9ab373140/",
+      "year": "2017"
+    },
+    {
+      "id": 4,
+      "name": "ARU RAGHUVANSHI",
+      "img": "/team-17/aru.jpeg",
+      "pos": "Electronics Head",
+      "linkedin": "https://www.linkedin.com/in/aru-raghuwanshi-8a647b140/",
+      "year": "2017"
+    },
+    {
+      "id": 5,
+      "name": "JAY RABINDRA KUMAR SAMAL",
+      "img": "/team-17/Jay.jpg",
+      "pos": "Science Cache Head",
+      "linkedin": "",
+      "year": "2017"
+    },
+    {
+      "id": 6,
+      "name": "AVINASH PAI",
+      "img": "/team-17/Avinash.jpg",
+      "pos": "Electronics Division Member",
+      "linkedin": "https://www.linkedin.com/in/avinash-pai-4708a113b/",
+      "year": "2017"
+    },
+    {
+      "id": 7,
+      "name": "DARPAN BANSAL",
+      "img": "/team-18/darpan.jpg",
+      "pos": "Mechanical Division Member",
+      "linkedin": "https://www.linkedin.com/in/darpan97/",
+      "year": "2017"
+    },
+    {
+      "id": 8,
+      "name": "DHRUV KOOL RAJAMANI",
+      "img": "/team-17/Dhruv.jpg",
+      "pos": "Mechanical Divison Member",
+      "linkedin": "https://www.linkedin.com/in/dkr/",
+      "year": "2017"
+    },
+    {
+      "id": 9,
+      "name": "ESWAR DEEP",
+      "img": "/team-17/Eswar.jpeg",
+      "pos": "Electronics Division Member",
+      "linkedin": "https://www.linkedin.com/in/eswar-deep/",
+      "year": "2017"
+    },
+    {
+      "id": 10,
+      "name": "JOEL JOHN",
+      "img": "/team-18/joel.jpg",
+      "pos": "Science Cache Division Member",
+      "linkedin": "https://www.linkedin.com/in/joel-john-a05451112/",
+      "year": "2017"
+    },
+    {
+      "id": 11,
+      "name": "KULPREET SINGH DHANKAR",
+      "img": "/team-18/kulpreet.jpg",
+      "pos": "Mechanical Division Member",
+      "linkedin": "https://www.linkedin.com/in/kulpreet-singh-dhankhar/",
+      "year": "2017"
+    },
+    {
+      "id": 12,
+      "name": "PAVITRA C NAIR",
+      "img": "/team-18/pavitra.jpeg",
+      "pos": "Science Cache Division Member",
+      "linkedin": "",
+      "year": "2017"
+    },
+    {
+      "id": 13,
+      "name": "PRAKHAR KUMAR",
+      "img": "/team-18/prakhar.jpg",
+      "pos": "Science Cache Division Member",
+      "linkedin": "",
+      "year": "2017"
+    },
+    {
+      "id": 14,
+      "name": "RISHAV DUTTA",
+      "img": "/team-17/Rishav.jpg",
+      "pos": "Mechanical Division Member",
+      "linkedin": "https://www.linkedin.com/in/rishavdutta27/",
+      "year": "2017"
+    },
+    {
+      "id": 15,
+      "name": "RUHI JAISWAL",
+      "img": "/team-17/ruhi.jpg",
+      "pos": "Science Cache Division Member",
+      "linkedin": "https://www.linkedin.com/in/ruhijaiswal/",
+      "year": "2017"
+    },
+    {
+      "id": 16,
+      "name": "SHANTAM SHOREWALA",
+      "img": "/team-18/shantam.jpg",
+      "pos": "Electronics Division Member",
+      "linkedin": "https://www.linkedin.com/in/shantam-shorewala/",
+      "year": "2017"
+    },
+    {
+      "id": 17,
+      "name": "VIVEK JAISWAL",
+      "img": "/team-17/Vivek.jpg",
+      "pos": "Mechanical Division Member",
+      "linkedin": "https://www.linkedin.com/in/vivek-jaiswal-203936132/",
+      "year": "2017"
+    },
+    {
+      "id": 18,
+      "name": "VYSHNAVI KUCHIMANCHI",
+      "img": "/team-18/vyshnavi.jpg",
+      "pos": "Science Cache Division Member",
+      "linkedin": "",
+      "year": "2017"
+    }
+  ],
+  "2018": [
+    {
+      "id": 1,
+      "name": "SHANTAM SHOREWALA",
+      "img": "/team-18/shantam.jpg",
+      "pos": "Team Leader",
+      "linkedin": "https://www.linkedin.com/in/shantam-shorewala-2a902611b",
+      "year": "2018"
+    },
+    {
+      "id": 2,
+      "name": "KULPREET SINGH DHANKAR",
+      "img": "/team-18/kulpreet.jpg",
+      "pos": "Technical and Research Head",
+      "linkedin": "https://www.linkedin.com/in/kulpreet-singh-dhankhar/",
+      "year": "2018"
+    },
+    {
+      "id": 3,
+      "name": "DIXIT OJHA",
+      "img": "/team-18/dixit.jpeg",
+      "pos": "Mechanical Head",
+      "linkedin": "https://www.linkedin.com/in/dixit-ojha-34193713a/",
+      "year": "2018"
+    },
+    {
+      "id": 4,
+      "name": "SURIYA ELANGO",
+      "img": "/team-18/suriya.jpg",
+      "pos": "Electronics Head",
+      "linkedin": "https://www.linkedin.com/in/e-suriya-viswanath-20ab95147",
+      "year": "2018"
+    },
+    {
+      "id": 5,
+      "name": "JOEL JOHN",
+      "img": "/team-18/joel.jpg",
+      "pos": "Science Cache Head",
+      "linkedin": "https://www.linkedin.com/in/joel-john-a05451112",
+      "year": "2018"
+    },
+    {
+      "id": 6,
+      "name": "ABHINAV GOYAL",
+      "img": "/team-18/abhinav.webp",
+      "pos": "Mechanical",
+      "linkedin": "https://www.linkedin.com/in/abhinav-goyal-38b6b390/",
+      "year": "2018"
+    },
+    {
+      "id": 7,
+      "name": "ANUSH KUMAR",
+      "img": "/team-18/anush.jpeg",
+      "pos": "Electronics and AI",
+      "linkedin": "https://www.linkedin.com/in/anush-kumar-52321a145",
+      "year": "2018"
+    },
+    {
+      "id": 8,
+      "name": "ATHARV MUDUR",
+      "img": "/team-19/atharv.jpg",
+      "pos": "Science",
+      "linkedin": "https://www.linkedin.com/in/atharv-mudur-437692167/",
+      "year": "2018"
+    },
+    {
+      "id": 9,
+      "name": "AYUSH GARG",
+      "img": "/team-18/ayush.jpg",
+      "pos": "Electronics and AI",
+      "linkedin": "https://www.linkedin.com/in/ayush-garg-a6a151129",
+      "year": "2018"
+    },
+    {
+      "id": 10,
+      "name": "HARDIK KOTHARI",
+      "img": "/team-18/hardik.jpg",
+      "pos": "Electronics and AI",
+      "linkedin": "https://www.linkedin.com/in/hardik-kothari-43b957121",
+      "year": "2018"
+    },
+    {
+      "id": 11,
+      "name": "I. SRIHARSHA REDDY",
+      "img": "/team-18/sriharsha.jpg",
+      "pos": "Mechanical",
+      "linkedin": "https://www.linkedin.com/in/indupru-sriharshareddy-70335a125/",
+      "year": "2018"
+    },
+    {
+      "id": 12,
+      "name": "KAVYA BANARJEE",
+      "img": "/team-19/kavya.jfif",
+      "pos": "Science",
+      "linkedin": "https://www.linkedin.com/in/kavya-banerjee-a97071189/",
+      "year": "2018"
+    },
+    {
+      "id": 13,
+      "name": "PAVITRA C NAIR",
+      "img": "/team-18/pavitra.jpeg",
+      "pos": "Science Cache",
+      "linkedin": "",
+      "year": "2018"
+    },
+    {
+      "id": 14,
+      "name": "PRAKHAR KUMAR DEBATA",
+      "img": "/team-18/prakhar.jpg",
+      "pos": "Science Cache",
+      "linkedin": "https://www.linkedin.com/in/prakhardebata/",
+      "year": "2018"
+    },
+    {
+      "id": 15,
+      "name": "PRATISHTA GUPTA",
+      "img": "/team-18/prathishta.jpeg",
+      "pos": "Mechanical",
+      "linkedin": "https://www.linkedin.com/in/pratishtha-gupta-738286149/",
+      "year": "2018"
+    },
+    {
+      "id": 16,
+      "name": "MOHAMMAD ABDUL SALMAN",
+      "img": "/team-18/salman.jpg",
+      "pos": "Mechanical",
+      "linkedin": "https://www.linkedin.com/in/mohammed-abdul-salman-a49064132/",
+      "year": "2018"
+    },
+    {
+      "id": 17,
+      "name": "SAFAL AJMERA",
+      "img": "/team-18/safal.jpeg",
+      "pos": "Mechanical",
+      "linkedin": "https://www.linkedin.com/in/safal-ajmera-194551129/",
+      "year": "2018"
+    },
+    {
+      "id": 18,
+      "name": "SAGAR DHAKA",
+      "img": "/team-18/sagar.jfif",
+      "pos": "Management",
+      "linkedin": "https://www.linkedin.com/in/sagardhaka/",
+      "year": "2018"
+    },
+    {
+      "id": 19,
+      "name": "SAI SHYAM",
+      "img": "/team-18/saishyam.jpg",
+      "pos": "Management",
+      "linkedin": "https://www.linkedin.com/in/vinnakotasaishyam/",
+      "year": "2018"
+    },
+    {
+      "id": 20,
+      "name": "SIRIL TEJA D",
+      "img": "/team-18/siril.jpg",
+      "pos": "Mechanical",
+      "linkedin": "https://www.linkedin.com/in/siril-td/",
+      "year": "2018"
+    },
+    {
+      "id": 21,
+      "name": "TANISHQ SINGLA",
+      "img": "/team-18/tanishq.jpg",
+      "pos": "Electronics and AI",
+      "linkedin": "",
+      "year": "2018"
+    },
+    {
+      "id": 22,
+      "name": "TUSHAR SHAHI",
+      "img": "/team-18/tushar.jpg",
+      "pos": "Management",
+      "linkedin": "https://www.linkedin.com/in/tushar-shahi-82217025/",
+      "year": "2018"
+    }
+  ],
+  "2019": [
+    {
+      "id": 1,
+      "name": "SAFAL AJMERA",
+      "img": "/team-18/SafalA.jpg",
+      "pos": "Team Leader",
+      "linkedin": "https://www.linkedin.com/in/safal-ajmera-194551129/",
+      "year": "2019"
+    },
+    {
+      "id": 2,
+      "name": "SAI SHYAM",
+      "img": "/team-18/saishyam.jpg",
+      "pos": "Team Manager",
+      "linkedin": "https://www.linkedin.com/in/vinnakotasaishyam/",
+      "year": "2019"
+    },
+    {
+      "id": 3,
+      "name": "SIRIL TEJA D",
+      "img": "/team-18/siril.jpg",
+      "pos": "Research Head",
+      "linkedin": "https://www.linkedin.com/in/siril-teja-dukkipati-790504145/",
+      "year": "2019"
+    },
+    {
+      "id": 4,
+      "name": "ABHIJIT ALOK",
+      "img": "/team-19/abhijit.jpeg",
+      "pos": "Science",
+      "linkedin": "https://www.linkedin.com/in/abhijit-alok-8b090516a",
+      "year": "2019"
+    },
+    {
+      "id": 5,
+      "name": "ADITYA KOLPE",
+      "img": "/team-19/aditya-kolpe.jpg",
+      "pos": "Electronics & AI",
+      "linkedin": "https://www.linkedin.com/in/aditya-kolpe-19b606155",
+      "year": "2019"
+    },
+    {
+      "id": 6,
+      "name": "AGNIV SAIKA",
+      "img": "/team-19/agniv.jpg",
+      "pos": "Electronics and AI",
+      "linkedin": "https://www.linkedin.com/in/agniv-saikia-390885159",
+      "year": "2019"
+    },
+    {
+      "id": 7,
+      "name": "AJAY RANGAN",
+      "img": "/team-19/ajay.jpeg",
+      "pos": "Mechanical",
+      "linkedin": "https://www.linkedin.com/in/ajay-rangan-939521149",
+      "year": "2019"
+    },
+    {
+      "id": 8,
+      "name": "AKANKSHA KAUSHAL",
+      "img": "/team-19/akanksha.jpeg",
+      "pos": "Management",
+      "linkedin": "https://www.linkedin.com/in/akanksha-kaushal-a3075215b",
+      "year": "2019"
+    },
+    {
+      "id": 9,
+      "name": "AKASH YADAV",
+      "img": "/team-19/akash.jpg",
+      "pos": "Mechanical",
+      "linkedin": "https://www.linkedin.com/in/akash-yadav-2b536516a",
+      "year": "2019"
+    },
+    {
+      "id": 10,
+      "name": "ANANDI B",
+      "img": "/team-19/anandi.jpg",
+      "pos": "Mechanical",
+      "linkedin": "https://www.linkedin.com/in/anandi-B",
+      "year": "2019"
+    },
+    {
+      "id": 11,
+      "name": "ANMOL KUMAR",
+      "img": "/team-18/anmol.jpg",
+      "pos": "Electronics & AI",
+      "linkedin": "http://linkedin.com/in/anmol-kumar-534874111",
+      "year": "2019"
+    },
+    {
+      "id": 12,
+      "name": "ATHARV MUDUR",
+      "img": "/team-19/atharv.jpg",
+      "pos": "Science",
+      "linkedin": "https://www.linkedin.com/in/atharv-mudur-437692167/",
+      "year": "2019"
+    },
+    {
+      "id": 13,
+      "name": "AYUSH PARASHAR",
+      "img": "/team-19/ayush.jpeg",
+      "pos": "Mechanical",
+      "linkedin": "https://www.linkedin.com/in/ayush-parashar-5a862b150",
+      "year": "2019"
+    },
+    {
+      "id": 14,
+      "name": "BLADEN MARTIN",
+      "img": "/team-19/bladen.jpg",
+      "pos": "Management",
+      "linkedin": "https://www.linkedin.com/in/bladen-martin-75a851153",
+      "year": "2019"
+    },
+    {
+      "id": 15,
+      "name": "DAVULURI SAI RAGHU TEJA",
+      "img": "/team-19/teja.jfif",
+      "pos": "Research",
+      "linkedin": "https://www.linkedin.com/in/sai-raghu-teja-davuluri-93170a163",
+      "year": "2019"
+    },
+    {
+      "id": 16,
+      "name": "GAURAV K H",
+      "img": "/team-19/guarav.jpg",
+      "pos": "Electronics and AI",
+      "linkedin": "https://www.linkedin.com/in/gaurav-k-h-11749b146/",
+      "year": "2019"
+    },
+    {
+      "id": 17,
+      "name": "HARSHIT SHARMA",
+      "img": "/team-19/harshit.jpeg",
+      "pos": "Management",
+      "linkedin": "https://www.linkedin.com/in/harshit-sharma-0810/",
+      "year": "2019"
+    },
+    {
+      "id": 18,
+      "name": "KARTHIK DATTA",
+      "img": "/team-19/karthik.jpg",
+      "pos": "Electronics & AI",
+      "linkedin": "https://www.linkedin.com/in/karthik-datta-9a178213b/",
+      "year": "2019"
+    },
+    {
+      "id": 19,
+      "name": "KAVYA BANARJEE",
+      "img": "/team-19/kavya.jfif",
+      "pos": "SCIENCE",
+      "linkedin": "https://www.linkedin.com/in/kavya-banerjee-a97071189/",
+      "year": "2019"
+    },
+    {
+      "id": 20,
+      "name": "KSHITIJ PATIL",
+      "img": "/team-19/kshitij.jpg",
+      "pos": "Mechanical",
+      "linkedin": "http://linkedin.com/in/kshitij-patil-a08901163",
+      "year": "2019"
+    },
+    {
+      "id": 21,
+      "name": "LAKSH PAHUJA",
+      "img": "/team-19/laksh.jpg",
+      "pos": "Electronics & AI",
+      "linkedin": "https://www.linkedin.com/in/laksh-pahuja-a66888157/",
+      "year": "2019"
+    },
+    {
+      "id": 22,
+      "name": "M ADITYA SHARMA",
+      "img": "/team-19/aditya.jpg",
+      "pos": "Electronics & AI",
+      "linkedin": "https://www.linkedin.com/in/m-aditya-sharma-0b74a1154/",
+      "year": "2019"
+    },
+    {
+      "id": 23,
+      "name": "Mohammad Abdul Sulaiman",
+      "img": "/team-19/Mohammad Sulaiman.jpg",
+      "pos": "Research",
+      "linkedin": "https://www.linkedin.com/in/mohammad-abdul-sulaiman-0116ab16b/",
+      "year": "2019"
+    },
+    {
+      "id": 24,
+      "name": "MOHAMMED MOHSIN H",
+      "img": "/team-19/mohsin.jpeg",
+      "pos": "Mechanical",
+      "linkedin": "https://www.linkedin.com/in/mohammed-mohsin-h-87023816a/",
+      "year": "2019"
+    },
+    {
+      "id": 25,
+      "name": "NEIL DOSHI",
+      "img": "/team-19/neil.jpg",
+      "pos": "Mechanical",
+      "linkedin": "https://www.linkedin.com/in/neil-doshi-859a45169",
+      "year": "2019"
+    },
+    {
+      "id": 26,
+      "name": "Nishesh Singh",
+      "img": "/team-19/nishesh.jpeg",
+      "pos": "Mechanical",
+      "linkedin": "https://www.linkedin.com/in/nishesh-singh-669702163",
+      "year": "2019"
+    },
+    {
+      "id": 27,
+      "name": "RACHIT SHAH",
+      "img": "/team-19/rachit.jpg",
+      "pos": "Management",
+      "linkedin": "https://www.linkedin.com/in/rachit-shah-b2830b132/",
+      "year": "2019"
+    },
+    {
+      "id": 28,
+      "name": "RAKSHIT TEWARI",
+      "img": "/team-19/rakshit.jpeg",
+      "pos": "Management",
+      "linkedin": "https://www.linkedin.com/in/rakshit-tewari-a398a0151/",
+      "year": "2019"
+    },
+    {
+      "id": 29,
+      "name": "SAYANTIKA PAUL",
+      "img": "/team-19/sayantika.jpg",
+      "pos": "Management",
+      "linkedin": "https://www.linkedin.com/in/sayantika-paul-95269b152",
+      "year": "2019"
+    },
+    {
+      "id": 30,
+      "name": "SHAUN MENZEZ",
+      "img": "/team-19/shaunm.jpeg",
+      "pos": "Management",
+      "linkedin": "https://www.linkedin.com/in/shaun-menezes-4ba825152",
+      "year": "2019"
+    },
+    {
+      "id": 31,
+      "name": "SHEENA KAPOOR",
+      "img": "/team-19/sheena.jpg",
+      "pos": "SCIENCE & RESEARCH",
+      "linkedin": "http://linkedin.com/in/sheena-kapoor-37436516a",
+      "year": "2019"
+    },
+    {
+      "id": 32,
+      "name": "SOMESH PARANJPE",
+      "img": "/team-19/somesh.jpeg",
+      "pos": "Mechanical",
+      "linkedin": "https://www.linkedin.com/in/somesh-paranjpe-12323a16a",
+      "year": "2019"
+    },
+    {
+      "id": 33,
+      "name": "TANMAY SHUKLA",
+      "img": "/team-19/tanmay.jpeg",
+      "pos": "Electronics & AI",
+      "linkedin": "https://www.linkedin.com/in/tanmay-shukla-2aaa68147",
+      "year": "2019"
+    },
+    {
+      "id": 34,
+      "name": "TUSHAAR NEB",
+      "img": "/team-19/tushaar.jpg",
+      "pos": "Mechanical",
+      "linkedin": "https://www.linkedin.com/in/tushaar-neb-a89a7116a/",
+      "year": "2019"
+    },
+    {
+      "id": 35,
+      "name": "VED CHITNIS",
+      "img": "/team-19/ved.jpg",
+      "pos": "Electronics & AI",
+      "linkedin": "https://www.linkedin.com/in/ved-chitnis-812701163",
+      "year": "2019"
+    },
+    {
+      "id": 36,
+      "name": "VEDANT DHONGADE",
+      "img": "/team-19/vedant.jpg",
+      "pos": "Science & Research",
+      "linkedin": "https://www.linkedin.com/in/vedant-dhongade-336815140",
+      "year": "2019"
+    },
+    {
+      "id": 37,
+      "name": "AKSHAT TULSANI",
+      "img": "/team-18/Akshat-Tulsani.jpeg",
+      "pos": "Management",
+      "linkedin": "https://www.linkedin.com/in/akshat-tulsani/",
+      "year": "2019"
+    }
+  ],
+  "2020": [
+    {
+      "id": 1,
+      "name": "TUSHAAR NEB",
+      "img": "/team-20/Tushaar.webp",
+      "pos": "Team Leader",
+      "linkedin": "https://www.linkedin.com/in/tushaar-neb-a89a7116a/",
+      "year": "2020"
+    },
+    {
+      "id": 2,
+      "name": "NEIL DOSHI",
+      "img": "/team-20/neil.jpg",
+      "pos": "Mechanical Lead",
+      "linkedin": "https://www.linkedin.com/in/neil-doshi-859a45169",
+      "year": "2020"
+    },
+    {
+      "id": 3,
+      "name": "GAURAV K H",
+      "img": "/team-20/Gaurav_KH.jpg",
+      "pos": "Electronics & AI Lead",
+      "linkedin": "https://www.linkedin.com/in/gauravkh",
+      "year": "2020"
+    },
+    {
+      "id": 4,
+      "name": "MOHAMMAD SULAIMAN",
+      "img": "/team-20/Mohammad Sulaiman.jpg",
+      "pos": "Research Lead",
+      "linkedin": "https://www.linkedin.com/in/mohammad-abdul-sulaiman-0116ab16b",
+      "year": "2020"
+    },
+    {
+      "id": 5,
+      "name": "ABHINAV KUMAR SINGH",
+      "img": "/team-20/Abhinav Singh.jpg",
+      "pos": "Mechanical",
+      "linkedin": "https://www.linkedin.com/in/abhinav-s-joker123/",
+      "year": "2020"
+    },
+    {
+      "id": 6,
+      "name": "ABHIRAJ TIWARI",
+      "img": "/team-20/Abhiraj Tiwari.webp",
+      "pos": "Electronics & AI",
+      "linkedin": "https://www.linkedin.com/in/abhiraj-tiwari-b6a811169",
+      "year": "2020"
+    },
+    {
+      "id": 7,
+      "name": "ADITHI SOMAYAJI",
+      "img": "/team-20/Adithi Somayaji.jpg",
+      "pos": "Science",
+      "linkedin": "https://www.linkedin.com/in/adithi-somayaji-1b5802180",
+      "year": "2020"
+    },
+    {
+      "id": 8,
+      "name": "APOORVA KAPADIA",
+      "img": "/team-20/Apoorva Kapadia.JPG",
+      "pos": "Management",
+      "linkedin": "https://www.linkedin.com/in/apoorva-kapadia-9b30b9188",
+      "year": "2020"
+    },
+    {
+      "id": 9,
+      "name": "ARMAAN ASHFAQUE",
+      "img": "/team-20/pp.jfif",
+      "pos": "Electronics & AI",
+      "linkedin": "https://www.linkedin.com/in/armaan-ashfaque-05442317b",
+      "year": "2020"
+    },
+    {
+      "id": 10,
+      "name": "AYUSH MITTAL",
+      "img": "/team-20/ayush mittal.jpg",
+      "pos": "Electronics & AI",
+      "linkedin": "http://linkedin.com/in/ayush-mittal-a5576b17b",
+      "year": "2020"
+    },
+    {
+      "id": 11,
+      "name": "DHARM MEHTA",
+      "img": "/team-20/WhatsApp Image 2019-08-15 at 16.10.07.jpeg",
+      "pos": "Science",
+      "linkedin": "https://www.linkedin.com/in/dharm-mehta-2a0098190",
+      "year": "2020"
+    },
+    {
+      "id": 12,
+      "name": "HRADAY BAVISHI",
+      "img": "/team-20/Screenshot_20190721-225027__01__01 - Hraday Bavishi.jpg",
+      "pos": "Mechanical",
+      "linkedin": "https://www.linkedin.com/in/hraday-bavishi-a1648617a",
+      "year": "2020"
+    },
+    {
+      "id": 13,
+      "name": "LEANDER D SOUZA",
+      "img": "/team-20/leander dsouza.png",
+      "pos": "Electronics & AI",
+      "linkedin": "https://www.linkedin.com/in/leander-stephen-d-souza-b7a8ba186",
+      "year": "2020"
+    },
+    {
+      "id": 14,
+      "name": "NEEHAL SHARRMA",
+      "img": "/team-20/Neehal Sharrma - Neehal Sharrma.jpg",
+      "pos": "Research",
+      "linkedin": "https://www.linkedin.com/in/neehal-sharrma-b93611169",
+      "year": "2020"
+    },
+    {
+      "id": 15,
+      "name": "NIKHAR",
+      "img": "/team-18/nopic.png",
+      "pos": "Science",
+      "linkedin": "http://www.linkedin.com/in/nikhar-m-523173190",
+      "year": "2020"
+    },
+    {
+      "id": 16,
+      "name": "PARTHIVI CHOUBEY",
+      "img": "/team-20/PARTHIVI.jpeg",
+      "pos": "Electronics & AI",
+      "linkedin": "https://www.linkedin.com/in/parthivi-choubey-98341317b/",
+      "year": "2020"
+    },
+    {
+      "id": 17,
+      "name": "PRANESH G",
+      "img": "/team-20/IMG_20180927_171511 - Pranesh G.jpg",
+      "pos": "Research",
+      "linkedin": "https://www.linkedin.com/in/pranesh-g-529876176",
+      "year": "2020"
+    },
+    {
+      "id": 18,
+      "name": "R SIDHARTH",
+      "img": "/team-20/Sid_Photo_Dec2018 - Sidharth R.jpg",
+      "pos": "Research",
+      "linkedin": "https://www.linkedin.com/in/sidharth-r-181097190/",
+      "year": "2020"
+    },
+    {
+      "id": 19,
+      "name": "RUSHIL VARSHNEY",
+      "img": "/team-20/rushil.jpeg",
+      "pos": "Electronics & AI",
+      "linkedin": "https://www.linkedin.com/in/rushil-varshney-808946189/",
+      "year": "2020"
+    },
+    {
+      "id": 20,
+      "name": "SABHYA ARORA",
+      "img": "/team-20/sabhya.jpg",
+      "pos": "Mechanical",
+      "linkedin": "https://www.linkedin.com/in/sabhya-arora-76a0a9190/",
+      "year": "2020"
+    },
+    {
+      "id": 21,
+      "name": "SAHIL KARUMANCHI",
+      "img": "/team-20/Picture1-1 - Sahil Karumanchi.jpeg",
+      "pos": "Science",
+      "linkedin": "https://www.linkedin.com/in/sahil-karumanchi-a2b355137",
+      "year": "2020"
+    },
+    {
+      "id": 22,
+      "name": "SAISHA KASHYAP",
+      "img": "/team-20/saisha.jpeg",
+      "pos": "Electronics & AI",
+      "linkedin": "https://www.linkedin.com/in/saisha-kashyap-972a36186",
+      "year": "2020"
+    },
+    {
+      "id": 23,
+      "name": "SAJAN SUBRAMANIAM",
+      "img": "/team-20/_Sajan Subramaniam.jpg",
+      "pos": "Mechanical",
+      "linkedin": "https://www.linkedin.com/in/sajan-subramaniam-b82483b2",
+      "year": "2020"
+    },
+    {
+      "id": 24,
+      "name": "SAMARPITA SAMANTA",
+      "img": "/team-20/IMG_20190721_165333 - samarpita samanta.jpg",
+      "pos": "Science",
+      "linkedin": "https://www.linkedin.com/in/samarpita-samanta-192ba7157",
+      "year": "2020"
+    },
+    {
+      "id": 25,
+      "name": "SHARANYA SARKAR",
+      "img": "/team-20/sharanya sarkar.jpg",
+      "pos": "Mechanical",
+      "linkedin": "https://www.linkedin.com/in/sharanya-sarkar-38b087190",
+      "year": "2020"
+    },
+    {
+      "id": 26,
+      "name": "SIMHA BADRI NARAYAN",
+      "img": "/team-20/WhatsApp Image 2019-08-15 at 18.53.06.jpeg",
+      "pos": "Mechanical",
+      "linkedin": "https://www.linkedin.com/in/simha-badri-168098190",
+      "year": "2020"
+    },
+    {
+      "id": 27,
+      "name": "UDIT SHARMA",
+      "img": "/team-20/udit.jpg",
+      "pos": "Electronics & AI",
+      "linkedin": "https://www.linkedin.com/in/udit-s-9863a9100",
+      "year": "2020"
+    },
+    {
+      "id": 28,
+      "name": "URVI GUPTA",
+      "img": "/team-20/Urvi_Photo - Urvi Gupta.jpg",
+      "pos": "Mechanical",
+      "linkedin": "http://www.linkedin.com/in/urvi-gupta-839600178",
+      "year": "2020"
+    },
+    {
+      "id": 29,
+      "name": "YAMEEN ABDULLAH",
+      "img": "/team-20/Yameen Khan.jpg",
+      "pos": "Electronics & AI",
+      "linkedin": "https://www.linkedin.com/in/yameen-a-50b715106",
+      "year": "2020"
+    }
+  ],
+  "2021": [
+    {
+      "id": 1,
+      "name": "Udit Sharma",
+      "img": "/team-21/Udit.JPG",
+      "pos": "Team Leader",
+      "linkedin": "https://www.linkedin.com/in/udit-s-tidu/",
+      "year": "2021"
+    },
+    {
+      "id": 2,
+      "name": "Parthivi Choubey",
+      "img": "/team-21/Parthivi.webp",
+      "pos": "Team Manager",
+      "linkedin": "https://www.linkedin.com/in/parthivi-choubey/",
+      "year": "2021"
+    },
+    {
+      "id": 3,
+      "name": "Saisha Kashyap",
+      "img": "/team-21/Saishaaaa.jpg",
+      "pos": "Technical Head",
+      "linkedin": "https://www.linkedin.com/in/saishakashyap/",
+      "year": "2021"
+    },
+    {
+      "id": 4,
+      "name": "Abhiraj Tiwari",
+      "img": "/team-21/Abhi_new.jpeg",
+      "pos": "AI Head",
+      "linkedin": "https://www.linkedin.com/in/abhirajtiwari/",
+      "year": "2021"
+    },
+    {
+      "id": 5,
+      "name": "R Sidharth",
+      "img": "/team-21/R Sidharth 06122017.jpg",
+      "pos": "Research Head",
+      "linkedin": "https://www.linkedin.com/in/sidharth-r-181097190/",
+      "year": "2021"
+    },
+    {
+      "id": 6,
+      "name": "Sahil Karumanchi",
+      "img": "/team-20/Picture1-1 - Sahil Karumanchi.jpeg",
+      "pos": "Science Senior",
+      "linkedin": "https://www.linkedin.com/in/sahil-karumanchi/",
+      "year": "2021"
+    },
+    {
+      "id": 7,
+      "name": "Pranesh",
+      "img": "/team-20/IMG_20180927_171511 - Pranesh G.jpg",
+      "pos": "Research Senior",
+      "linkedin": "https://www.linkedin.com/in/pranesh-g-529876176",
+      "year": "2021"
+    },
+    {
+      "id": 8,
+      "name": "Apoorv Thapliyal",
+      "img": "/team-21/Apoorv_new.JPG",
+      "pos": "Electronics",
+      "linkedin": "https://www.linkedin.com/in/apoorv-thapliyal-280a151a6",
+      "year": "2021"
+    },
+    {
+      "id": 9,
+      "name": "Atirav Seth",
+      "img": "/team-21/ATIRAV.jpeg",
+      "pos": "Mechanical",
+      "linkedin": "https://www.linkedin.com/in/atirav-seth-0434801a9",
+      "year": "2021"
+    },
+    {
+      "id": 10,
+      "name": "Jordan Kuruvilla",
+      "img": "/team-22/jordan.jpeg",
+      "pos": "Mechanical",
+      "linkedin": "https://www.linkedin.com/in/jordan-kuruvilla-5b093ab8/",
+      "year": "2021"
+    },
+    {
+      "id": 11,
+      "name": "Jyotishka Duttagupta",
+      "img": "/team-21/Jyotishka_new.jpg",
+      "pos": "Mechanical",
+      "linkedin": "https://www.linkedin.com/in/jyotishka-duttagupta-20581a1a9",
+      "year": "2021"
+    },
+    {
+      "id": 12,
+      "name": "Piyush Raj",
+      "img": "/team-21/Piyush_Raj - piyush raj.jpeg",
+      "pos": "Mechanical",
+      "linkedin": "https://www.linkedin.com/in/piyush-raj-046507188/",
+      "year": "2021"
+    },
+    {
+      "id": 13,
+      "name": "Shashwat Sharma",
+      "img": "/team-21/Shashwat_new.jpg",
+      "pos": "Mechanical",
+      "linkedin": "https://www.linkedin.com/in/shashwat-sharma-0729121a9/",
+      "year": "2021"
+    },
+    {
+      "id": 14,
+      "name": "Aditi Rao",
+      "img": "/team-21/Aditi - Aditi Rao.webp",
+      "pos": "Artificial Intelligence",
+      "linkedin": "https://www.linkedin.com/in/aditi-rao-6ba8621a9",
+      "year": "2021"
+    },
+    {
+      "id": 15,
+      "name": "Anmol Agarwal",
+      "img": "/team-21/WhatsApp Image 2020-08-07 at 11.33.50 PM - Anmol Agarwal.jpeg",
+      "pos": "Artificial Intelligence",
+      "linkedin": "https://www.linkedin.com/in/anmol-agarwal-086a14a8/",
+      "year": "2021"
+    },
+    {
+      "id": 16,
+      "name": "Keshav Kapur",
+      "img": "/team-21/MRM_img - Keshav Kapur.jpeg",
+      "pos": "Artificial Intelligence",
+      "linkedin": "https://www.linkedin.com/in/keshav-kapur-80572b17a",
+      "year": "2021"
+    },
+    {
+      "id": 17,
+      "name": "Akshat Taneja",
+      "img": "/team-21/Akshat_new.webp",
+      "pos": "Electronics",
+      "linkedin": "https://www.linkedin.com/in/akshat-taneja-6332a9131",
+      "year": "2021"
+    },
+    {
+      "id": 18,
+      "name": "Devansh Mehra",
+      "img": "/team-21/AttachmentPhoto  - devansh mehra.jpg",
+      "pos": "Electronics",
+      "linkedin": "https://www.linkedin.com/in/devansh-mehra-877753189",
+      "year": "2021"
+    },
+    {
+      "id": 19,
+      "name": "Jugal Jesing",
+      "img": "/team-21/IMG_20200808_165425 - jugal.jpg",
+      "pos": "Electronics",
+      "linkedin": "https://www.linkedin.com/in/jugal-jesing-1256841a9",
+      "year": "2021"
+    },
+    {
+      "id": 20,
+      "name": "Shashank KM",
+      "img": "/team-21/Shanks - Shashank KM.webp",
+      "pos": "Electronics",
+      "linkedin": "https://www.linkedin.com/in/shashank-km-0073091b4/",
+      "year": "2021"
+    },
+    {
+      "id": 21,
+      "name": "Soham Ghosh",
+      "img": "/team-21/IMG_20190904_233748_030 - Sghosh xperia.webp",
+      "pos": "Electronics",
+      "linkedin": "http://www.linkedin.com/in/the-soham-ghosh",
+      "year": "2021"
+    },
+    {
+      "id": 22,
+      "name": "Sreevatsan Rangaprasad",
+      "img": "/team-21/tmp_1589534815411 - Sreevatsan Rangaprasad.jpg",
+      "pos": "Electronics",
+      "linkedin": "https://www.linkedin.com/in/sreevatsan-rangaprasad-43a190179",
+      "year": "2021"
+    },
+    {
+      "id": 23,
+      "name": "Aritro Santra",
+      "img": "/team-21/IMG-20191221-WA0004__01 - Aritro Santra.jpg",
+      "pos": "Science",
+      "linkedin": "https://www.linkedin.com/in/aritro-santra-9127951b4",
+      "year": "2021"
+    },
+    {
+      "id": 24,
+      "name": "Runay Rane",
+      "img": "/team-21/Runay_new.webp",
+      "pos": "Science",
+      "linkedin": "https://www.linkedin.com/in/runay-rane-bb0a84108",
+      "year": "2021"
+    },
+    {
+      "id": 25,
+      "name": "Ayush Pradhan",
+      "img": "/team-21/Ayush.webp",
+      "pos": "Management",
+      "linkedin": "https://www.linkedin.com/in/ayush-pradhan-310a26191",
+      "year": "2021"
+    },
+    {
+      "id": 26,
+      "name": "Aayush R Shah",
+      "img": "/team-22/aayush.jpeg",
+      "pos": "Research",
+      "linkedin": "https://www.linkedin.com/in/aayush-shah-35591319a",
+      "year": "2021"
+    },
+    {
+      "id": 27,
+      "name": "Abhinandan Agarwal",
+      "img": "/team-22/abhinandan.jpeg",
+      "pos": "Research",
+      "linkedin": "https://www.linkedin.com/in/abhinandan-agarwal-93470a1b4",
+      "year": "2021"
+    },
+    {
+      "id": 28,
+      "name": "Ghanashyam R K P",
+      "img": "/team-21/Ghanshm_new.jpg",
+      "pos": "Research",
+      "linkedin": "https://www.linkedin.com/in/gsrkp15",
+      "year": "2021"
+    },
+    {
+      "id": 29,
+      "name": "Harshil Bhatt",
+      "img": "/team-21/202008082600021010477353415 - Harshil Bhatt.jpg",
+      "pos": "Research",
+      "linkedin": "https://www.linkedin.com/in/harshilbhatt2001",
+      "year": "2021"
+    },
+    {
+      "id": 30,
+      "name": "Kumud Lakara",
+      "img": "/team-22/Kumud.webp",
+      "pos": "Research",
+      "linkedin": "http://linkedin.com/in/kumud-lakara-8705641a5",
+      "year": "2021"
+    },
+    {
+      "id": 31,
+      "name": "Samarth Shankar",
+      "img": "/team-21/Samarth_new.jpg",
+      "pos": "Research",
+      "linkedin": "https://www.linkedin.com/in/samarth-shankar-2403751a5",
+      "year": "2021"
+    },
+    {
+      "id": 32,
+      "name": "Shriyash",
+      "img": "/team-21/Shriyash.jpg",
+      "pos": "Research",
+      "linkedin": "https://www.linkedin.com/in/shriyash-harlikar-bb1794195",
+      "year": "2021"
+    }
+  ],
+  "2022": [
+    {
+      "id": 1,
+      "name": "Jyotishka Duttagupta",
+      "img": "/team-22/jyotishka.webp",
+      "pos": "Team Leader",
+      "linkedin": "https://www.linkedin.com/in/jyotishka-duttagupta-20581a1a9",
+      "year": "2022"
+    },
+    {
+      "id": 2,
+      "name": "Piyush Raj",
+      "img": "/team-22/piyush.webp",
+      "pos": "Team Manager",
+      "linkedin": "https://www.linkedin.com/in/piyush-raj-046507188/",
+      "year": "2022"
+    },
+    {
+      "id": 3,
+      "name": "Atirav Seth",
+      "img": "/team-22/atirav.webp",
+      "pos": "Technical Head",
+      "linkedin": "https://www.linkedin.com/in/atirav-seth-0434801a9",
+      "year": "2022"
+    },
+    {
+      "id": 4,
+      "name": "Keshav Kapur",
+      "img": "/team-22/keshav.jpeg",
+      "pos": "Artificial Intelligence & Automation Head",
+      "linkedin": "https://www.linkedin.com/in/keshav-kapur-80572b17a",
+      "year": "2022"
+    },
+    {
+      "id": 5,
+      "name": "Apoorv Thapliyal",
+      "img": "/team-22/Apoorv.webp",
+      "pos": "Electronics & Control Systems Head",
+      "linkedin": "https://www.linkedin.com/in/apoorv-thapliyal-280a151a6",
+      "year": "2022"
+    },
+    {
+      "id": 7,
+      "name": "Abhishek Sankar",
+      "img": "/team-22/Abhishek.webp",
+      "pos": "Mechanical Design & Manufacturing Head",
+      "linkedin": "https://www.linkedin.com/in/abhishek-sankar-6664071b2?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3B7S1447W2QFCQ9v7Ng5k3Nw%3D%3D",
+      "year": "2022"
+    },
+    {
+      "id": 6,
+      "name": "Kumud Lakara",
+      "img": "/team-22/Kumud.webp",
+      "pos": "Research Head",
+      "linkedin": "http://linkedin.com/in/kumud-lakara-8705641a5",
+      "year": "2022"
+    },
+    {
+      "id": 8,
+      "name": "Aayush R Shah",
+      "img": "/team-22/aayush.jpeg",
+      "pos": "Web Development & Public Relations Senior",
+      "linkedin": "https://www.linkedin.com/in/aayush-shah-35591319a",
+      "year": "2022"
+    },
+    {
+      "id": 9,
+      "name": "Kirti Kedia",
+      "img": "/team-22/Kirti Kedia.webp",
+      "pos": "Web Development & Public Relations",
+      "linkedin": "https://www.linkedin.com/in/kirti-kedia-440714204",
+      "year": "2022"
+    },
+    {
+      "id": 10,
+      "name": "Jordan Kuruvilla",
+      "img": "/team-22/jordan.jpeg",
+      "pos": "Mechanical Senior",
+      "linkedin": "https://www.linkedin.com/mwlite/in/jordankuruvilla",
+      "year": "2022"
+    },
+    {
+      "id": 12,
+      "name": "Shashwat Sharma",
+      "img": "/team-22/shaswat.webp",
+      "pos": "Mechanical Senior",
+      "linkedin": "https://www.linkedin.com/in/shashwat-sharma-0729121a9/",
+      "year": "2022"
+    },
+    {
+      "id": 13,
+      "name": "Akhilesh Jhawar",
+      "img": "/team-22/Akhilesh.jpeg",
+      "pos": "Mechanical",
+      "linkedin": "http://linkedin.com/in/akhilesh-jhawar-77097a140",
+      "year": "2022"
+    },
+    {
+      "id": 14,
+      "name": "Amritanshu Jain",
+      "img": "/team-22/AmritanshuJain.webp",
+      "pos": "Mechanical",
+      "linkedin": "http://linkedin.com/in/amritanshujain",
+      "year": "2022"
+    },
+    {
+      "id": 15,
+      "name": "Ankit Aggarwal",
+      "img": "/team-22/AnkitAggarwal.webp",
+      "pos": "Mechanical",
+      "linkedin": "https://www.linkedin.com/in/ankit-aggarwal-04b5211b4",
+      "year": "2022"
+    },
+    {
+      "id": 16,
+      "name": "Ishayu Chakravorty",
+      "img": "/team-22/Ishayu.webp",
+      "pos": "Mechanical",
+      "linkedin": "https://www.linkedin.com/in/ishayu-chakravorty-699955216",
+      "year": "2022"
+    },
+    {
+      "id": 17,
+      "name": "Jeswanthi Tirupathi",
+      "img": "/team-22/Jeswanthi.webp",
+      "pos": "Mechanical",
+      "linkedin": "http://www.linkedin.com/in/jeswanthi-tirupathi-541695216",
+      "year": "2022"
+    },
+    {
+      "id": 18,
+      "name": "Saurabh Chaughule",
+      "img": "/team-22/Saurabh.png",
+      "pos": "Mechanical",
+      "linkedin": "http://www.linkedin.com/in/saurabh-chaughule-740627200",
+      "year": "2022"
+    },
+    {
+      "id": 19,
+      "name": "Yashas Rao P",
+      "img": "/team-22/YashashRao.webp",
+      "pos": "Mechanical",
+      "linkedin": "https://www.linkedin.com/in/yashash-rao-151a90216/",
+      "year": "2022"
+    },
+    {
+      "id": 21,
+      "name": "Aditya Arun Iyer",
+      "img": "/team-22/Aditya Arun Iyer.webp",
+      "pos": "AI & Automation",
+      "linkedin": "http://www.linkedin.com/in/adityaaruniyer",
+      "year": "2022"
+    },
+    {
+      "id": 22,
+      "name": "Dishita Midha",
+      "img": "/team-22/Dishita Midha.webp",
+      "pos": "AI & Automation",
+      "linkedin": "https://www.linkedin.com/in/dishita-midha-960755214/",
+      "year": "2022"
+    },
+    {
+      "id": 23,
+      "name": "Saipranav Vojjala",
+      "img": "/team-22/Saipranav Vojjala.webp",
+      "pos": "AI & Automation",
+      "linkedin": "http://www.linkedin.com/in/saipranav-vojjala-2770ab217",
+      "year": "2022"
+    },
+    {
+      "id": 24,
+      "name": "Vanisha Agarwal",
+      "img": "/team-22/Vanisha.webp",
+      "pos": "AI & Automation",
+      "linkedin": "http://www.linkedin.com/in/vanisha-agarwal-29240a1b4",
+      "year": "2022"
+    },
+    {
+      "id": 25,
+      "name": "Vignesh S Iyer",
+      "img": "/team-22/vignesh iyer.webp",
+      "pos": "AI & Automation",
+      "linkedin": "http://www.linkedin.com/in/vignesh-iyer-630b48217",
+      "year": "2022"
+    },
+    {
+      "id": 31,
+      "name": "Devansh Mehra",
+      "img": "/team-22/Devansh.jpg",
+      "pos": "Electronics Senior",
+      "linkedin": "https://www.linkedin.com/in/devansh-mehra-877753189",
+      "year": "2022"
+    },
+    {
+      "id": 32,
+      "name": "Jugal Jesing",
+      "img": "/team-22/Jugal.webp",
+      "pos": "Electronics Senior",
+      "linkedin": "https://www.linkedin.com/in/jugal-jesing-1256841a9",
+      "year": "2022"
+    },
+    {
+      "id": 33,
+      "name": "Sreevatsan Rangaprasad",
+      "img": "/team-22/Sreevatsan.webp",
+      "pos": "Electronics Senior",
+      "linkedin": "https://www.linkedin.com/in/sreevatsan-rangaprasad-43a190179",
+      "year": "2022"
+    },
+    {
+      "id": 34,
+      "name": "Aditya Harlalka",
+      "img": "/team-22/Aditya.webp",
+      "pos": "Electronics",
+      "linkedin": "https://www.linkedin.com/in/aditya-harlalka-aba804173/",
+      "year": "2022"
+    },
+    {
+      "id": 35,
+      "name": "Kanishk Kaushal",
+      "img": "/team-22/Kanishk.jpeg",
+      "pos": "Electronics",
+      "linkedin": "https://www.linkedin.com/in/kanishk-kaushal-18a24520b",
+      "year": "2022"
+    },
+    {
+      "id": 37,
+      "name": "Meet Jain ",
+      "img": "/team-22/Meet.webp",
+      "pos": "Electronics",
+      "linkedin": "http://www.linkedin.com/in/meet-jain-b3632820a",
+      "year": "2022"
+    },
+    {
+      "id": 38,
+      "name": "Priya Baphna",
+      "img": "/team-22/Priya.webp",
+      "pos": "Electronics",
+      "linkedin": "https://www.linkedin.com/mwlite/in/priya-baphna-554b82217",
+      "year": "2022"
+    },
+    {
+      "id": 39,
+      "name": "Tarush Sharma",
+      "img": "/team-22/Tarush.webp",
+      "pos": "Electronics",
+      "linkedin": "https://www.linkedin.com/in/tarush-sharma-6724a61a0/",
+      "year": "2022"
+    },
+    {
+      "id": 41,
+      "name": "Himanshu Sandhu",
+      "img": "/team-22/Himanshu.jpg",
+      "pos": "Science",
+      "linkedin": "https://www.linkedin.com/in/himanshu-sandhu-035b52217/",
+      "year": "2022"
+    },
+    {
+      "id": 42,
+      "name": "Jahnavi Sri Dhanya",
+      "img": "/team-22/Jahnavi.webp",
+      "pos": "Science",
+      "linkedin": "https://www.linkedin.com/in/jahnavi-sri-dhanya-83993a200/",
+      "year": "2022"
+    },
+    {
+      "id": 43,
+      "name": "Pavan Kumar Thota",
+      "img": "/team-22/Pavan.jpg",
+      "pos": "Science",
+      "linkedin": "https://www.linkedin.com/in/pavan-kumar-thota-9676a61b5",
+      "year": "2022"
+    },
+    {
+      "id": 44,
+      "name": "Varsha R",
+      "img": "/team-22/Varsha.webp",
+      "pos": "Science",
+      "linkedin": "https://www.linkedin.com/in/varsha-r-784891213/",
+      "year": "2022"
+    },
+    {
+      "id": 52,
+      "name": "Harshil Bhatt",
+      "img": "/team-22/Harshil.jpg",
+      "pos": "Research Senior",
+      "linkedin": "https://linkedin.com/in/harshilbhatt2001",
+      "year": "2022"
+    },
+    {
+      "id": 55,
+      "name": "Akshat Bhandari",
+      "img": "/team-22/AkshatBhandari.webp",
+      "pos": "Research",
+      "linkedin": "https://www.linkedin.com/in/akshat-bhandarixv/",
+      "year": "2022"
+    },
+    {
+      "id": 56,
+      "name": "Ashish Sharma",
+      "img": "/team-22/AshishSharma.webp",
+      "pos": "Research",
+      "linkedin": "https://www.linkedin.com/in/ashish-sharma-89a6431ba/",
+      "year": "2022"
+    },
+    {
+      "id": 57,
+      "name": "Pratinav Seth",
+      "img": "/team-22/PratinavSeth.webp",
+      "pos": "Research",
+      "linkedin": "https://www.linkedin.com/in/pratinav-seth",
+      "year": "2022"
+    }
+  ],
+  "2023": [
+    {
+      "id": 1,
+      "name": "Yashas Rao P",
+      "img": "/team-23/yashash.webp",
+      "pos": "Team Leader",
+      "linkedin": "https://www.linkedin.com/in/yashash-rao-151a90216/",
+      "year": "2023"
+    },
+    {
+      "id": 2,
+      "name": "Akhilesh Jhawar",
+      "img": "/team-23/akhilesh.webp",
+      "pos": "Team Manager",
+      "linkedin": "http://linkedin.com/in/akhilesh-jhawar-77097a140",
+      "year": "2023"
+    },
+    {
+      "id": 3,
+      "name": "Ankit Aggarwal",
+      "img": "/team-22/AnkitAggarwal.webp",
+      "pos": "Technical Head",
+      "linkedin": "https://www.linkedin.com/in/ankit-aggarwal-04b5211b4",
+      "year": "2023"
+    },
+    {
+      "id": 4,
+      "name": "Aditya Arun Iyer",
+      "img": "/team-23/adityaai.webp",
+      "pos": "Artificial Intelligence & Automation Head",
+      "linkedin": "http://www.linkedin.com/in/adityaaruniyer",
+      "year": "2023"
+    },
+    {
+      "id": 5,
+      "name": "Meet Jain",
+      "img": "/team-23/meet.webp",
+      "pos": "Electronics & Control Systems Head",
+      "linkedin": "http://www.linkedin.com/in/meet-jain-b3632820a",
+      "year": "2023"
+    },
+    {
+      "id": 6,
+      "name": "Amritanshu Jain",
+      "img": "/team-23/amritanshu.webp",
+      "pos": "Mechanical Design & Manufacturing Head",
+      "linkedin": "http://linkedin.com/in/amritanshujain",
+      "year": "2023"
+    },
+    {
+      "id": 7,
+      "name": "Pavan Kumar Thota",
+      "img": "/team-23/pavan.webp",
+      "pos": "Life Science Head",
+      "linkedin": "https://www.linkedin.com/in/pavan-kumar-thota-9676a61b5",
+      "year": "2023"
+    },
+    {
+      "id": 8,
+      "name": "Ashish Sharma",
+      "img": "/team-23/ashish.webp",
+      "pos": "Research Head",
+      "linkedin": "https://www.linkedin.com/in/ashish-sharma-89a6431ba/",
+      "year": "2023"
+    },
+    {
+      "id": 9,
+      "name": "Ishayu Chakravorty",
+      "img": "/team-23/ishayu.webp",
+      "pos": "Mechanical Senior",
+      "linkedin": "https://www.linkedin.com/in/ishayu-chakravorty-699955216",
+      "year": "2023"
+    },
+    {
+      "id": 10,
+      "name": "Jeswanthi Tirupathi",
+      "img": "/team-23/jeswanthi.webp",
+      "pos": "Mechanical Senior",
+      "linkedin": "http://www.linkedin.com/in/jeswanthi-tirupathi-541695216",
+      "year": "2023"
+    },
+    {
+      "id": 11,
+      "name": "Saurabh Chaughule",
+      "img": "/team-23/saurabh.webp",
+      "pos": "Mechanical Senior",
+      "linkedin": "http://www.linkedin.com/in/saurabh-chaughule-740627200",
+      "year": "2023"
+    },
+    {
+      "id": 12,
+      "name": "Aarushi Anuj Dharna",
+      "img": "/team-23/aarushi.webp",
+      "pos": "Mechanical",
+      "linkedin": "https://www.linkedin.com/in/aarushi-dharna-84b1021b8",
+      "year": "2023"
+    },
+    {
+      "id": 13,
+      "name": "Arjunshankar S Menon",
+      "img": "/team-23/arjun.webp",
+      "pos": "Mechanical",
+      "linkedin": "https://www.linkedin.com/in/arjunshankar-menon-65951a221",
+      "year": "2023"
+    },
+    {
+      "id": 14,
+      "name": "Sanya Gupta",
+      "img": "/team-23/sanya.webp",
+      "pos": "Mechanical",
+      "linkedin": "https://www.linkedin.com/in/sanya-gupta-790750251",
+      "year": "2023"
+    },
+    {
+      "id": 15,
+      "name": "Shantanu Baranwal",
+      "img": "/team-23/shantanu.webp",
+      "pos": "Mechanical",
+      "linkedin": "https://www.linkedin.com/in/shantanu-baranwal-a98a74250",
+      "year": "2023"
+    },
+    {
+      "id": 16,
+      "name": "Shivansh Bansal",
+      "img": "/team-23/shivansh.webp",
+      "pos": "Mechanical",
+      "linkedin": "https://www.linkedin.com/in/shivansh-bansal-04bbb2250",
+      "year": "2023"
+    },
+    {
+      "id": 17,
+      "name": "Bharath Udupa",
+      "img": "/team-23/bharath.webp",
+      "pos": "Mechanical",
+      "linkedin": "https://www.linkedin.com/in/bharath-u-7165281b2/",
+      "year": "2023"
+    },
+    {
+      "id": 18,
+      "name": "Harsh Phawade",
+      "img": "/team-23/harshp.webp",
+      "pos": "Mechanical",
+      "linkedin": "https://www.linkedin.com/in/harsh-phawade-a94bb6250/",
+      "year": "2023"
+    },
+    {
+      "id": 19,
+      "name": "Dishita Midha",
+      "img": "/team-23/dishita.webp",
+      "pos": "AI & Automation Senior",
+      "linkedin": "https://www.linkedin.com/in/dishita-midha-960755214/",
+      "year": "2023"
+    },
+    {
+      "id": 20,
+      "name": "Saipranav Vojjala",
+      "img": "/team-23/saipranav.webp",
+      "pos": "AI & Automation Senior",
+      "linkedin": "http://www.linkedin.com/in/saipranav-vojjala-2770ab217",
+      "year": "2023"
+    },
+    {
+      "id": 21,
+      "name": "Vignesh S Iyer",
+      "img": "/team-22/vignesh iyer.webp",
+      "pos": "AI & Automation Senior",
+      "linkedin": "http://www.linkedin.com/in/vignesh-iyer-630b48217",
+      "year": "2023"
+    },
+    {
+      "id": 22,
+      "name": "Aansh Basu",
+      "img": "/team-23/aansh.webp",
+      "pos": "AI & Automation",
+      "linkedin": "https://www.linkedin.com/in/aansh-basu-628310251",
+      "year": "2023"
+    },
+    {
+      "id": 23,
+      "name": "Harsh Nandwani",
+      "img": "/team-23/harshn.webp",
+      "pos": "AI & Automation",
+      "linkedin": "https://www.linkedin.com/in/harsh-nandwani-57a238212",
+      "year": "2023"
+    },
+    {
+      "id": 24,
+      "name": "Saatwik Vasishtha",
+      "img": "/team-23/saatwik.webp",
+      "pos": "AI & Automation",
+      "linkedin": "https://www.linkedin.com/in/saatwik-vasishtha-974a82148/",
+      "year": "2023"
+    },
+    {
+      "id": 25,
+      "name": "Kanishk Kaushal",
+      "img": "/team-23/kanishk.webp",
+      "pos": "Electronics & Control Systems Senior",
+      "linkedin": "https://www.linkedin.com/in/kanishk-kaushal-18a24520b",
+      "year": "2023"
+    },
+    {
+      "id": 26,
+      "name": "Hrishikesh M Rao",
+      "img": "/team-23/hrishikesh.webp",
+      "pos": "Electronics & Control Systems",
+      "linkedin": "https://www.linkedin.com/in/hrishikesh-m-rao-443a1b22a",
+      "year": "2023"
+    },
+    {
+      "id": 27,
+      "name": "Raj Nandini",
+      "img": "/team-23/nandini.webp",
+      "pos": "Electronics & Control Systems",
+      "linkedin": "https://www.linkedin.com/in/raj-nandini-6b85b6214",
+      "year": "2023"
+    },
+    {
+      "id": 28,
+      "name": "Swaraj Dangare",
+      "img": "/team-23/swaraj.webp",
+      "pos": "Electronics & Control Systems",
+      "linkedin": "https://www.linkedin.com/in/swaraj-dangare-952a21214",
+      "year": "2023"
+    },
+    {
+      "id": 29,
+      "name": "Tarush Sonawala",
+      "img": "/team-23/tarush.webp",
+      "pos": "Electronics & Control Systems",
+      "linkedin": "https://www.linkedin.com/in/tarush-sonawala-43bb03217",
+      "year": "2023"
+    },
+    {
+      "id": 30,
+      "name": "Uttiya Sangiri",
+      "img": "/team-23/uttiya.webp",
+      "pos": "Electronics & Control Systems",
+      "linkedin": "https://www.linkedin.com/in/uttiya-sangiri/",
+      "year": "2023"
+    },
+    {
+      "id": 31,
+      "name": "Varsha R",
+      "img": "/team-23/varsha.webp",
+      "pos": "Life Science Senior",
+      "linkedin": "https://www.linkedin.com/in/varsha-r-784891213/",
+      "year": "2023"
+    },
+    {
+      "id": 32,
+      "name": "Mallika Shinkre",
+      "img": "/team-23/mallika.webp",
+      "pos": "Life Science",
+      "linkedin": "https://www.linkedin.com/in/mallika-shinkre-1ab030261",
+      "year": "2023"
+    },
+    {
+      "id": 33,
+      "name": "Pritha Jaipal",
+      "img": "/team-23/pritha.webp",
+      "pos": "Life Science",
+      "linkedin": "https://www.linkedin.com/in/pritha-jaipal-058b85187/",
+      "year": "2023"
+    },
+    {
+      "id": 34,
+      "name": "Rashi Goel",
+      "img": "/team-23/rashi.webp",
+      "pos": "Life Science",
+      "linkedin": "https://www.linkedin.com/in/rashi-goel-5a385a251?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BNS2OpZpBSwONbswI4FceIQ%3D%3D",
+      "year": "2023"
+    },
+    {
+      "id": 35,
+      "name": "Saransh Andharmule",
+      "img": "/team-23/saransh.webp",
+      "pos": "Life Science",
+      "linkedin": "https://www.linkedin.com/in/saransh-andharmule-a00952226",
+      "year": "2023"
+    },
+    {
+      "id": 36,
+      "name": "Akshat Bhandari",
+      "img": "/team-23/akshat.webp",
+      "pos": "Research Senior",
+      "linkedin": "https://www.linkedin.com/in/akshat-bhandarixv/",
+      "year": "2023"
+    },
+    {
+      "id": 37,
+      "name": "Pratinav Seth",
+      "img": "/team-23/pratinav.webp",
+      "pos": "Research Senior",
+      "linkedin": "https://www.linkedin.com/in/pratinav-seth",
+      "year": "2023"
+    },
+    {
+      "id": 38,
+      "name": "Adil K",
+      "img": "/team-23/adil.webp",
+      "pos": "Research",
+      "linkedin": "https://www.linkedin.com/in/adil-k-ba37161a2",
+      "year": "2023"
+    },
+    {
+      "id": 39,
+      "name": "Aditya Kasliwal",
+      "img": "/team-23/adityak.webp",
+      "pos": "Research",
+      "linkedin": "https://www.linkedin.com/in/aditya-kasliwal-982525227",
+      "year": "2023"
+    },
+    {
+      "id": 40,
+      "name": "Ananya Gupta",
+      "img": "/team-23/ananya.webp",
+      "pos": "Research",
+      "linkedin": "https://www.linkedin.com/in/ananya-gupta-982414204",
+      "year": "2023"
+    },
+    {
+      "id": 41,
+      "name": "Diya Mehta",
+      "img": "/team-23/diya.webp",
+      "pos": "Research",
+      "linkedin": "https://www.linkedin.com/in/diya-mehta-5333b9238/",
+      "year": "2023"
+    },
+    {
+      "id": 42,
+      "name": "Ritika Ravichandran",
+      "img": "/team-23/ritika.webp",
+      "pos": "Research",
+      "linkedin": "https://www.linkedin.com/mwlite/in/ritika-ravichandran-a565b9221",
+      "year": "2023"
+    },
+    {
+      "id": 43,
+      "name": "Sanchit Singhal",
+      "img": "/team-23/sanchit.webp",
+      "pos": "Research",
+      "linkedin": "https://www.linkedin.com/in/sanchit-singhal-851239220",
+      "year": "2023"
+    },
+    {
+      "id": 44,
+      "name": "Sriya Rallabandi",
+      "img": "/team-23/sriya.webp",
+      "pos": "Research",
+      "linkedin": "https://www.linkedin.com/in/sriya-rallabandi-1a614020a",
+      "year": "2023"
+    },
+    {
+      "id": 45,
+      "name": "Saurabh Kumar Mishra",
+      "img": "/team-23/saurabhm.webp",
+      "pos": "Research",
+      "linkedin": "https://www.linkedin.com/in/saurabh-mishra-5a0719218",
+      "year": "2023"
+    }
+  ],
+  "2024": [
+    {
+      "id": 1,
+      "name": "Harsh Phawade",
+      "img": "/team-24/harsh.jpg",
+      "pos": "Team Leader",
+      "linkedin": "https://www.linkedin.com/in/harsh-phawade-a94bb6250/",
+      "year": "2024"
+    },
+    {
+      "id": 2,
+      "name": "Swaraj Dangare",
+      "img": "/team-24/swaraj.JPG",
+      "pos": "Team Manager",
+      "linkedin": "https://www.linkedin.com/in/swaraj-dangare-952a21214",
+      "year": "2024"
+    },
+    {
+      "id": 3,
+      "name": "Saatwik Vasishtha",
+      "img": "/team-24/saatwik.JPG",
+      "pos": "Technical Head",
+      "linkedin": "https://www.linkedin.com/in/saatwik-vasishtha-974a82148/",
+      "year": "2024"
+    },
+    {
+      "id": 4,
+      "name": "Mallika Shinkre",
+      "img": "/team-24/mallika.jpeg",
+      "pos": "Head of Operations",
+      "linkedin": "https://www.linkedin.com/in/mallika-shinkre-1ab030261",
+      "year": "2024"
+    },
+    {
+      "id": 5,
+      "name": "Aansh Basu",
+      "img": "/team-24/aansh.jpg",
+      "pos": "Artificial Intelligence and Automation Head",
+      "linkedin": "https://www.linkedin.com/in/aansh-basu-628310251",
+      "year": "2024"
+    },
+    {
+      "id": 6,
+      "name": "Tarush Sonawala",
+      "img": "/team-24/tarush.jpg",
+      "pos": "Electronics and Control Systems Head",
+      "linkedin": "https://www.linkedin.com/in/tarush-sonawala-43bb03217",
+      "year": "2024"
+    },
+    {
+      "id": 7,
+      "name": "Bharath Udupa",
+      "img": "/team-24/bharath.jpg",
+      "pos": "Mechanical Design and Manufacturing Head",
+      "linkedin": "https://www.linkedin.com/in/bharath-u-7165281b2/",
+      "year": "2024"
+    },
+    {
+      "id": 8,
+      "name": "Rashi Goel",
+      "img": "/team-24/rashi.jpg",
+      "pos": "Life Science Head",
+      "linkedin": "https://www.linkedin.com/in/rashi-goel-5a385a251?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BNS2OpZpBSwONbswI4FceIQ%3D%3D",
+      "year": "2024"
+    },
+    {
+      "id": 9,
+      "name": "Aditya Kasliwal",
+      "img": "/team-24/aditya.jpg",
+      "pos": "Research Head",
+      "linkedin": "https://www.linkedin.com/in/aditya-kasliwal-982525227",
+      "year": "2024"
+    },
+    {
+      "id": 10,
+      "name": "Aarushi Anuj Dharna",
+      "img": "/team-23/aarushi.webp",
+      "pos": "Mechanical Senior",
+      "linkedin": "https://www.linkedin.com/in/aarushi-dharna-84b1021b8",
+      "year": "2024"
+    },
+    {
+      "id": 11,
+      "name": "Arjunshankar S Menon",
+      "img": "/team-23/arjun.webp",
+      "pos": "Mechanical Senior",
+      "linkedin": "https://www.linkedin.com/in/arjunshankar-menon-65951a221",
+      "year": "2024"
+    },
+    {
+      "id": 12,
+      "name": "Sanya Gupta",
+      "img": "/team-23/sanya.webp",
+      "pos": "Mechanical Senior",
+      "linkedin": "https://www.linkedin.com/in/sanya-gupta-790750251",
+      "year": "2024"
+    },
+    {
+      "id": 13,
+      "name": "Shantanu Baranwal",
+      "img": "/team-23/shantanu.webp",
+      "pos": "Mechanical Senior",
+      "linkedin": "https://www.linkedin.com/in/shantanu-baranwal-a98a74250",
+      "year": "2024"
+    },
+    {
+      "id": 14,
+      "name": "Shivansh Bansal",
+      "img": "/team-23/shivansh.webp",
+      "pos": "Mechanical Senior",
+      "linkedin": "https://www.linkedin.com/in/shivansh-bansal-04bbb2250",
+      "year": "2024"
+    },
+    {
+      "id": 15,
+      "name": "Vipul Dinesh",
+      "img": "/team-24/junior/mechanical/vipul.webp",
+      "pos": "Mechanical",
+      "linkedin": "https://www.linkedin.com/in/vipul-dinesh",
+      "year": "2024"
+    },
+    {
+      "id": 16,
+      "name": "Suryank Joshi",
+      "img": "/team-24/junior/mechanical/suryank.webp",
+      "pos": "Mechanical",
+      "linkedin": "https://www.linkedin.com/in/suryank-joshi/",
+      "year": "2024"
+    },
+    {
+      "id": 17,
+      "name": "Het Ambaliya",
+      "img": "/team-24/junior/mechanical/het.webp",
+      "pos": "Mechanical",
+      "linkedin": "https://www.linkedin.com/in/het-ambaliya-5757b4253?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+      "year": "2024"
+    },
+    {
+      "id": 18,
+      "name": "Sanchit Dhingra",
+      "img": "/team-24/junior/mechanical/sanchit.webp",
+      "pos": "Mechanical",
+      "linkedin": "https://www.linkedin.com/in/sanchitdhingra",
+      "year": "2024"
+    },
+    {
+      "id": 19,
+      "name": "Vrishin Ashlyn Lakra",
+      "img": "/team-24/junior/mechanical/vrishin.webp",
+      "pos": "Mechanical",
+      "linkedin": "https://www.linkedin.com/in/vrishin-ashlyn-lakra-46858a257?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+      "year": "2024"
+    },
+    {
+      "id": 20,
+      "name": "Gagan Kiran Menderkar",
+      "img": "/team-25/gagan.jpeg",
+      "pos": "Mechanical",
+      "linkedin": "https://www.linkedin.com/in/gagan-menderkar-b3a243255?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+      "year": "2024"
+    },
+    {
+      "id": 21,
+      "name": "Vivek Kolekar",
+      "img": "/team-24/junior/mechanical/vivek.webp",
+      "pos": "Mechanical",
+      "linkedin": "https://www.linkedin.com/in/vivek-kolekar-19689721b?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+      "year": "2024"
+    },
+    {
+      "id": 22,
+      "name": "Harsh Nandwani",
+      "img": "/team-23/harshn.webp",
+      "pos": "AI & Automation Senior",
+      "linkedin": "https://www.linkedin.com/in/harsh-nandwani-57a238212",
+      "year": "2024"
+    },
+    {
+      "id": 23,
+      "name": "Mustafa Haji",
+      "img": "/team-25/mustafa.jpeg",
+      "pos": "AI & Automation",
+      "linkedin": "https://www.linkedin.com/in/mustafa-haji-3057611b0/",
+      "year": "2024"
+    },
+    {
+      "id": 24,
+      "name": "Ankur Monga",
+      "img": "/team-25/ankur.jpg",
+      "pos": "AI & Automation",
+      "linkedin": "https://www.linkedin.com/in/ankur-monga-848020205",
+      "year": "2024"
+    },
+    {
+      "id": 25,
+      "name": "Prateek Manoj Mhatre ",
+      "img": "/team-24/junior/ai/prateek.webp",
+      "pos": "AI & Automation",
+      "linkedin": "https://www.linkedin.com/in/prateek-mhatre-54a076235?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+      "year": "2024"
+    },
+    {
+      "id": 26,
+      "name": "Nikhilesh Shashikumar",
+      "img": "/team-24/junior/ai/nikhilesh.webp",
+      "pos": "AI & Automation",
+      "linkedin": "https://www.linkedin.com/in/nikhilesh-shashikumar-079a58259/",
+      "year": "2024"
+    },
+    {
+      "id": 27,
+      "name": "G.Siddharth Reddy",
+      "img": "/team-24/junior/ai/siddharth.webp",
+      "pos": "AI & Automation",
+      "linkedin": "https://in.linkedin.com/in/siddharth-reddy-gangireddy-421a5624b",
+      "year": "2024"
+    },
+    {
+      "id": 28,
+      "name": "Vyshnav Davanagere Nagaraj",
+      "img": "/team-24/junior/ai/vyshnav.webp",
+      "pos": "AI & Automation",
+      "linkedin": "https://www.linkedin.com/in/vyshnav-davanagere-789364250?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app",
+      "year": "2024"
+    },
+    {
+      "id": 29,
+      "name": "Hrishikesh M Rao",
+      "img": "/team-23/hrishikesh.webp",
+      "pos": "Electronics & Control Systems Senior",
+      "linkedin": "https://www.linkedin.com/in/hrishikesh-m-rao-443a1b22a",
+      "year": "2024"
+    },
+    {
+      "id": 30,
+      "name": "Raj Nandini",
+      "img": "/team-23/nandini.webp",
+      "pos": "Electronics & Control Systems Senior",
+      "linkedin": "https://www.linkedin.com/in/raj-nandini-6b85b6214",
+      "year": "2024"
+    },
+    {
+      "id": 31,
+      "name": "Aryavarta Singh",
+      "img": "/team-24/junior/ecs/aryavarta.webp",
+      "pos": "Electronics & Control Systems",
+      "linkedin": "https://www.linkedin.com/in/aryavarta-singh-832689195?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+      "year": "2024"
+    },
+    {
+      "id": 32,
+      "name": "Piyush Daigavhane",
+      "img": "/team-24/junior/ecs/piyush.webp",
+      "pos": "Electronics & Control Systems",
+      "linkedin": "https://www.linkedin.com/in/piyush-daigavhane-9188b3228",
+      "year": "2024"
+    },
+    {
+      "id": 33,
+      "name": "Saransh Andharmule",
+      "img": "/team-23/saransh.webp",
+      "pos": "Life Science Senior",
+      "linkedin": "https://www.linkedin.com/in/saransh-andharmule-a00952226",
+      "year": "2024"
+    },
+    {
+      "id": 34,
+      "name": "Pritha Jaipal",
+      "img": "/team-23/pritha.webp",
+      "pos": "Life Science Senior",
+      "linkedin": "https://www.linkedin.com/in/pritha-jaipal-058b85187/",
+      "year": "2024"
+    },
+    {
+      "id": 35,
+      "name": "Arooja Tyagi",
+      "img": "/team-24/junior/ls/arooja.webp",
+      "pos": "Life Science",
+      "linkedin": "https://www.linkedin.com/in/arooja-tyagi-10639b248/",
+      "year": "2024"
+    },
+    {
+      "id": 37,
+      "name": "Sanvi Shetty",
+      "img": "/team-24/junior/ls/sanvi.webp",
+      "pos": "Life Science",
+      "linkedin": "https://www.linkedin.com/in/sanvi-shetty-83b325289?trk=contact-info",
+      "year": "2024"
+    },
+    {
+      "id": 38,
+      "name": "Mitwa Saraf",
+      "img": "/team-24/junior/ls/mitwa.webp",
+      "pos": "Life Science",
+      "linkedin": "https://www.linkedin.com/in/mitwa-saraf-36a397239/",
+      "year": "2024"
+    },
+    {
+      "id": 39,
+      "name": "Diya Mehta",
+      "img": "/team-23/diya.webp",
+      "pos": "Research Senior",
+      "linkedin": "https://www.linkedin.com/in/diya-mehta-5333b9238/",
+      "year": "2024"
+    },
+    {
+      "id": 40,
+      "name": "Ritika Ravichandran",
+      "img": "/team-23/ritika.webp",
+      "pos": "Research Senior",
+      "linkedin": "https://www.linkedin.com/mwlite/in/ritika-ravichandran-a565b9221",
+      "year": "2024"
+    },
+    {
+      "id": 41,
+      "name": "Pallavi Kailas",
+      "img": "/team-24/junior/research/pallavi.webp",
+      "pos": "Research",
+      "linkedin": "https://www.linkedin.com/in/pallavi-kailas-65b561245?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app",
+      "year": "2024"
+    },
+    {
+      "id": 42,
+      "name": "Laven Srivastava",
+      "img": "/team-24/junior/research/laven.webp",
+      "pos": "Research",
+      "linkedin": "https://www.linkedin.com/in/laven-srivastava-b1371223b?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+      "year": "2024"
+    },
+    {
+      "id": 43,
+      "name": "Sankarshanaa Sagaram",
+      "img": "/team-24/junior/research/sanky.webp",
+      "pos": "Research",
+      "linkedin": "https://www.linkedin.com/in/diya-mehta-5333b9238/",
+      "year": "2024"
+    },
+    {
+      "id": 44,
+      "name": "Krish Didwania",
+      "img": "/team-24/junior/research/krish.webp",
+      "pos": "Research",
+      "linkedin": "https://www.linkedin.com/in/krish-didwania-1a2395298?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app",
+      "year": "2024"
+    },
+    {
+      "id": 45,
+      "name": "Swetha Vemulapalli",
+      "img": "/team-24/junior/research/swetha.webp",
+      "pos": "Research",
+      "linkedin": "https://www.linkedin.com/in/swetha-vemulapalli-b8374524b/",
+      "year": "2024"
+    },
+    {
+      "id": 46,
+      "name": "Ishaan Gakhar",
+      "img": "/team-24/junior/research/ishaan.webp",
+      "pos": "Research",
+      "linkedin": "https://www.linkedin.com/in/ishaan-gakhar-9248b8253?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+      "year": "2024"
+    },
+    {
+      "id": 47,
+      "name": "Nirbhay singhal",
+      "img": "/team-24/junior/research/nirbhay.webp",
+      "pos": "Research",
+      "linkedin": "https://www.linkedin.com/in/nirbhaysinghal09/",
+      "year": "2024"
+    },
+    {
+      "id": 48,
+      "name": "Ansh Sankrityayan",
+      "img": "/team-24/junior/research/ansh.webp",
+      "pos": "Research",
+      "linkedin": "https://www.linkedin.com/in/anshsankrityayan/",
+      "year": "2024"
+    }
+  ],
+  "2025": [
+    {
+      "id": 1,
+      "name": "Gagan Kiran Menderkar",
+      "img": "/team-25/gagan.jpeg",
+      "pos": "Team Leader",
+      "linkedin": "https://www.linkedin.com/in/gagan-menderkar-b3a243255",
+      "year": "2025"
+    },
+    {
+      "id": 2,
+      "name": "Vivek Kolekar",
+      "img": "/team-25/vivek.jpg",
+      "pos": "Team Manager",
+      "linkedin": "https://www.linkedin.com/in/vivek-kolekar-19689721b",
+      "year": "2025"
+    },
+    {
+      "id": 3,
+      "name": "Aryavarta Singh",
+      "img": "/team-25/av.jpg",
+      "pos": "Technical Head",
+      "linkedin": "https://www.linkedin.com/in/aryavarta-singh-832689195",
+      "year": "2025"
+    },
+    {
+      "id": 4,
+      "name": "Mustafa Haji",
+      "img": "/team-25/mustafa.jpeg",
+      "pos": "Social Media and Public Relations Head",
+      "linkedin": "https://www.linkedin.com/in/mallika-shinkre-1ab030261",
+      "year": "2025"
+    },
+    {
+      "id": 5,
+      "name": "Ankur Monga",
+      "img": "/team-25/ankur.jpg",
+      "pos": "Artificial Intelligence and Automation Head",
+      "linkedin": "www.linkedin.com/in/ankurmonga",
+      "year": "2025"
+    },
+    {
+      "id": 6,
+      "name": "Piyush Daigavhane",
+      "img": "/team-25/piyush.jpg",
+      "pos": "Electronics and Control Systems Head",
+      "linkedin": "https://www.linkedin.com/in/piyush-daigavhane-9188b3228",
+      "year": "2025"
+    },
+    {
+      "id": 7,
+      "name": "Vipul Dinesh",
+      "img": "/team-25/vipul.jpg",
+      "pos": "Mechanical Design and Manufacturing Head",
+      "linkedin": "https://www.linkedin.com/in/vipul-dinesh",
+      "year": "2025"
+    },
+    {
+      "id": 8,
+      "name": "Arooja Tyagi",
+      "img": "/team-25/arooja.jpg",
+      "pos": "Life Science Head",
+      "linkedin": "https://www.linkedin.com/in/arooja-tyagi-10639b248/",
+      "year": "2025"
+    },
+    {
+      "id": 9,
+      "name": "Ishaan Gakhar",
+      "img": "/team-25/ishaan.jpg",
+      "pos": "Research Head",
+      "linkedin": "https://www.linkedin.com/in/ishaan-gakhar-9248b8253",
+      "year": "2025"
+    }
+  ],
+  "2026": [
+    {
+      "id": 1,
+      "name": "Aarish Patel",
+      "img": "https://drive.google.com/file/d/1vG7nULOzA15qh6iT1MwvAZ-KKvmBeqfW/view?usp=sharing",
+      "pos": "Team Lead",
+      "linkedin": "https://www.linkedin.com/in/aarish-patel-4843aa21a/",
+      "github": "https://github.com/Aarish-Patel/Aarish-Patel",
+      "domain": "",
+      "description": "",
+      "year": "2026"
+    },
+    {
+      "id": 2,
+      "name": "Kedar Vetal",
+      "img": "https://drive.google.com/file/d/1JJEfHUsVrtabGjc8VBTmsk5dSm_Kn8Ih/view?usp=drive_link",
+      "pos": "Team Manager",
+      "linkedin": "https://www.linkedin.com/in/kedar-vetal-615059290?utm_source=share_via&utm_content=profile&utm_medium=member_ios",
+      "github": "",
+      "domain": "",
+      "description": "Sugar daddy of MRM, mechanical Design and Manufacturing, Rover suspensions",
+      "year": "2026"
+    },
+    {
+      "id": 3,
+      "name": "Sameer singh",
+      "img": "https://drive.google.com/file/d/1h1DRMFSsTyL_6l7Uw4_de7tQZcTR-zG5/view?usp=drivesdk",
+      "pos": "Technical Head",
+      "linkedin": "",
+      "github": "",
+      "domain": "",
+      "description": "",
+      "year": "2026"
+    },
+    {
+      "id": 4,
+      "name": "Krishna Biranje",
+      "img": "https://drive.google.com/file/d/1Uvn8qAwxJrf75H0M2Td3IER7w6Yi-XvP/view?usp=sharing",
+      "pos": "Head of Operations",
+      "linkedin": "https://www.linkedin.com/in/krishnabiranje?utm_source=share_via&utm_content=profile&utm_medium=member_ios",
+      "github": "",
+      "domain": "",
+      "description": "",
+      "year": "2026"
+    },
+    {
+      "id": 5,
+      "name": "Aditi Arun",
+      "img": "https://drive.google.com/file/d/12lw_eCh8hJObXKSFFiy-GzN62Snb2Vi9/view?usp=sharing",
+      "pos": "Head of AI & Automation",
+      "linkedin": "https://www.linkedin.com/in/aditi-arun-452929322?utm_source=share_via&utm_content=profile&utm_medium=member_ios",
+      "github": "",
+      "domain": "",
+      "description": "",
+      "year": "2026"
+    },
+    {
+      "id": 6,
+      "name": "Harsh Gupta",
+      "img": "https://drive.google.com/file/d/1xYuJYVX0NWeHBUEMAaG8vyWbmQuNoQjv/view?usp=sharing",
+      "pos": "Head of Electronics & Control System",
+      "linkedin": "https://www.linkedin.com/in/harsh-gupta-339061223/",
+      "github": "https://github.com/Aught-Harps",
+      "domain": "",
+      "description": "",
+      "year": "2026"
+    },
+    {
+      "id": 7,
+      "name": "Ronan Andrew Fonseca",
+      "img": "https://drive.google.com/file/d/1bAfRMAZMTLFARY4PnJnFmcPycYxAW1u2/view?usp=sharing",
+      "pos": "Head of Mechanical Design and Manufacturing",
+      "linkedin": "https://www.linkedin.com/in/ronan-fonseca-244a98280?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+      "github": "",
+      "domain": "",
+      "description": "",
+      "year": "2026"
+    },
+    {
+      "id": 8,
+      "name": "Anushree Dutt",
+      "img": "https://drive.google.com/file/d/1EjNsxbfD-XTxqoHxPoUPnxuNHIi0Cdp4/view?usp=drive_link",
+      "pos": "Head of Life Science",
+      "linkedin": "https://www.linkedin.com/in/anushree-dutt-07429a287?utm_source=share_via&utm_content=profile&utm_medium=member_ios",
+      "github": "",
+      "domain": "",
+      "description": "",
+      "year": "2026"
+    },
+    {
+      "id": 9,
+      "name": "A S Aravinthakshan",
+      "img": "https://drive.google.com/file/d/1cQcLBGOEaDQ7-fMLtr9zDsA9MdZVkyNo/view?usp=sharing",
+      "pos": "Research Head",
+      "linkedin": "https://www.linkedin.com/in/aravinthakshan/",
+      "github": "https://github.com/aravinthakshan",
+      "domain": "",
+      "description": "Machine Learning Engineer, Researcher and Software Developer with a passion for anything Mathematics.",
+      "year": "2026"
+    },
+    {
+      "id": 10,
+      "name": "Suhail Malik",
+      "img": "https://drive.google.com/file/d/16qFtKyE-xHluZR04n2el6qIbDVwbpYfg/view?usp=drivesdk",
+      "pos": "Senior Member - ECS",
+      "linkedin": "https://www.linkedin.com/in/suhail-malik-1803b4204?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app",
+      "github": "",
+      "domain": "",
+      "description": "",
+      "year": "2026"
+    },
+    {
+      "id": 11,
+      "name": "Sanidhya Singhal",
+      "img": "https://drive.google.com/file/d/1Ka_DLLY18VGRTgi80hkDLG2lT_MUVhZl/view?usp=sharing",
+      "pos": "Senior Member - ECS",
+      "linkedin": "https://www.linkedin.com/in/sanidhya-singhal-a28a93280?utm_source=share_via&utm_content=profile&utm_medium=member_ios",
+      "github": "",
+      "domain": "",
+      "description": "",
+      "year": "2026"
+    },
+    {
+      "id": 12,
+      "name": "Tanisha Bharambe",
+      "img": "",
+      "pos": "Senior Member - Mechanical Design and Manufacturing",
+      "linkedin": "",
+      "github": "",
+      "domain": "",
+      "description": "",
+      "year": "2026"
+    },
+    {
+      "id": 13,
+      "name": "Shreyan Pal",
+      "img": "https://drive.google.com/file/d/1EPRXdW4AmbgS-Mkvr4CkaAH60kUabaJm/view?usp=drivesdk",
+      "pos": "Senior Member - Mechanical Design and Manufacturing",
+      "linkedin": "https://www.linkedin.com/in/shreyanpal?utm_source=share_via&utm_content=profile&utm_medium=member_ios",
+      "github": "",
+      "domain": "",
+      "description": "",
+      "year": "2026"
+    },
+    {
+      "id": 14,
+      "name": "Krish Bafna",
+      "img": "https://drive.google.com/file/d/1gEC0dw_qxnU7pQylVVSn2o7RajvoE0Fu/view?usp=sharing",
+      "pos": "Senior Member - Life Science",
+      "linkedin": "https://www.linkedin.com/in/krish-bafna-9a15742b4?utm_source=share_via&utm_content=profile&utm_medium=member_ios",
+      "github": "",
+      "domain": "",
+      "description": "",
+      "year": "2026"
+    }
+  ]
+}
