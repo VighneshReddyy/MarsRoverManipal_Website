@@ -424,7 +424,7 @@ function CompetitionCard({ competition, index }: { competition: Competition; ind
                     <button key={photo} type="button" onClick={() => setSelectedPhoto(photo)} aria-label={`View ${competition.name} photo ${i + 1}`} className="relative block aspect-[4/3] overflow-hidden rounded-lg bg-neutral-900 focus-visible:outline focus-visible:outline-2 focus-visible:outline-[#ff8a4c]">
                       <Image src={photo} alt={`${competition.name} photo ${i + 1}`} fill className="object-contain" sizes="(max-width: 640px) 90vw, 40vw" />
                     </button>
-                  ))
+                  ))}
                 </div>
               </DialogContent>
             </Dialog>
