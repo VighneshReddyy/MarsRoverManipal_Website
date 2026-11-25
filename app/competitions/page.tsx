@@ -44,9 +44,9 @@ const competitionData: CompetitionCategory[] = [
         year: "2026",
         position: "10th Worldwide",
         info: "At the European Rover Challenge 2026 hosted in Poland, Mars Rover Manipal achieved 10th place worldwide among elite collegiate robotics teams, showcasing an advanced five-bar suspension rover with autonomous waypoint navigation, astrobiology life-detection, and precision manipulator servicing.",
-        image: "/photos/erc2022-team-poland.webp",
+        image: "/erc2026/7.jpeg",
         website: "https://roverchallenge.eu/en/main-page/",
-        photos: ["/photos/erc2022-team-poland.webp", "/photos/erc2021-podium.webp", "/comp/ercteam22.webp"],
+        photos: ["/erc2026/7.jpeg", "/erc2026/1.jpeg", "/erc2026/2.jpeg", "/erc2026/3.jpeg", "/erc2026/4.jpeg", "/erc2026/5.jpeg", "/erc2026/6.jpeg", "/erc2026/8.jpeg", "/erc2026/9.jpeg", "/erc2026/10.jpeg", "/erc2026/11.jpeg", "/erc2026/12.jpeg", "/erc2026/13.jpeg"],
       },
       {
         id: 2,
@@ -54,9 +54,9 @@ const competitionData: CompetitionCategory[] = [
         year: "2025",
         position: "10th Worldwide",
         info: "Mars Rover Manipal secured 10th place globally at the European Rover Challenge 2025. Competing against international robotics institutions, the team demonstrated robust telemetry, modular electronics architecture, and specialized astrobiology payloads.",
-        image: "/photos/erc2021-podium.webp",
+        image: "/erc2025/1.jpeg",
         website: "https://roverchallenge.eu/en/main-page/",
-        photos: ["/photos/erc2021-podium.webp", "/comp/ERC_TEAM.webp"],
+        photos: ["/erc2025/1.jpeg"],
       },
       {
         id: 3,
@@ -94,9 +94,9 @@ const competitionData: CompetitionCategory[] = [
         year: "2026",
         position: "7th Place",
         info: "In the International Rover Challenge 2026, Mars Rover Manipal competed against premier collegiate teams in intense field maneuvers, securing 7th place overall with strong showings in autonomous traversal and manipulation tasks.",
-        image: "/placeholder.jpg",
+        image: "/irc2026/1.jpeg",
         website: "https://www.spaceroboticssociety.org/events/international-rover-challenge/",
-        photos: [],
+        photos: ["/irc2026/1.jpeg", "/irc2026/2.jpeg", "/irc2026/3.jpeg", "/irc2026/4.jpeg", "/irc2026/5.jpeg", "/irc2026/6.jpeg"],
       },
       {
         id: 2,
@@ -104,9 +104,9 @@ const competitionData: CompetitionCategory[] = [
         year: "2025",
         position: "1st Place",
         info: "Mars Rover Manipal clinched 1st Place at the International Rover Challenge 2025, outperforming international teams across all four operational challenges including autonomous navigation, science sample collection, and extreme terrain traversal.",
-        image: "/placeholder.jpg",
+        image: "/irc2025/1.jpeg",
         website: "https://www.spaceroboticssociety.org/events/international-rover-challenge/",
-        photos: [],
+        photos: ["/irc2025/1.jpeg", "/irc2025/2.jpeg", "/irc2025/3.jpeg", "/irc2025/4.jpeg", "/irc2025/5.jpeg"],
       },
       {
         id: 3,
@@ -366,18 +366,12 @@ function CompetitionCard({ competition, index }: { competition: Competition; ind
         />
         <div className="absolute inset-0 bg-gradient-to-t from-neutral-900 via-transparent to-transparent" />
 
-        {/* Position Badge */}
-        <div
-          className={`absolute top-3 right-3 flex items-center gap-1.5 backdrop-blur-md px-3 py-1 rounded-full border text-xs font-mono font-medium shadow-md ${badge.color}`}
-        >
-          {badge.icon}
-          <span>{competition.position}</span>
-        </div>
       </div>
 
       {/* Content */}
       <div className="p-6 flex-1 flex flex-col justify-between">
         <div>
+          <div className={`mb-4 inline-flex items-center gap-2 rounded-full border px-3 py-1.5 text-sm font-semibold ${badge.color}`}>{badge.icon}<span>{competition.position}</span></div>
           <div className="flex items-center justify-between mb-2">
             <h3 className="text-xl font-bold text-white group-hover:text-[#ff8a4c] transition-colors">
               {competition.name}
@@ -406,20 +400,20 @@ function CompetitionCard({ competition, index }: { competition: Competition; ind
             </a>
           )}
           {competition.photos && competition.photos.length > 0 && (
-            <Dialog onOpenChange={(open) => { if (!open) setSelectedPhoto(null) }}>
+            <Dialog onOpenChange={(open) => setSelectedPhoto(open ? competition.photos?.[0] ?? null : null)}>
               <DialogTrigger asChild>
                 <button className="inline-flex items-center gap-1.5 rounded-md border border-[#ff8a4c]/40 px-3 py-1.5 text-xs font-mono text-[#ff8a4c] transition-colors hover:bg-[#ff8a4c]/10">
                   <Images className="w-3.5 h-3.5" /> Photos
                 </button>
               </DialogTrigger>
-              <DialogContent className="max-h-[85vh] max-w-4xl overflow-y-auto border-neutral-800 bg-neutral-950 text-white">
+              <DialogContent className="max-h-[95vh] max-w-6xl overflow-y-auto border-neutral-800 bg-neutral-950 text-white">
                 <DialogHeader><DialogTitle>{competition.name} Photos</DialogTitle></DialogHeader>
                 {selectedPhoto && (
-                  <div className="relative aspect-[4/3] max-h-[55vh] rounded-lg bg-neutral-900">
+                  <div className="relative h-[55vh] sm:h-[65vh] rounded-lg bg-neutral-900">
                     <Image src={selectedPhoto} alt={`${competition.name} selected photo`} fill className="object-contain" sizes="90vw" />
                   </div>
                 )}
-                <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
+                <div className="grid grid-cols-3 sm:grid-cols-5 gap-3">
                   {competition.photos.map((photo, i) => (
                     <button key={photo} type="button" onClick={() => setSelectedPhoto(photo)} aria-label={`View ${competition.name} photo ${i + 1}`} className="relative block aspect-[4/3] overflow-hidden rounded-lg bg-neutral-900 focus-visible:outline focus-visible:outline-2 focus-visible:outline-[#ff8a4c]">
                       <Image src={photo} alt={`${competition.name} photo ${i + 1}`} fill className="object-contain" sizes="(max-width: 640px) 90vw, 40vw" />
