@@ -81,8 +81,8 @@ function TeamSection({ title, subtitle, members, isBoard = false, badgeText }: T
         <div
           className={`grid gap-6 md:gap-8 justify-items-center ${
             isBoard
-              ? "grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 max-w-5xl mx-auto"
-              : "grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4"
+              ? "grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 max-w-6xl mx-auto"
+              : "grid-cols-1 sm:grid-cols-2 lg:grid-cols-3"
           }`}
         >
           {members.map((member, index) => (
@@ -98,7 +98,7 @@ function TeamSection({ title, subtitle, members, isBoard = false, badgeText }: T
                 effect="gravitate"
                 tiltLimit={12}
                 scale={1.03}
-                className={`group relative w-full h-full min-h-[350px] rounded-2xl bg-neutral-900/90 border shadow-xl p-6 flex flex-col items-center text-center justify-between transition-all duration-300 ${
+                className={`group relative w-full h-full min-h-[420px] rounded-2xl bg-neutral-900/90 border shadow-xl p-6 flex flex-col items-center text-center justify-between transition-all duration-300 ${
                   isBoard
                     ? "border-neutral-800 hover:border-[#ff8a4c] shadow-[#ff8a4c]/5 hover:shadow-2xl hover:shadow-[#ff8a4c]/10"
                     : "border-neutral-800/80 hover:border-neutral-700 hover:shadow-xl"
@@ -109,8 +109,8 @@ function TeamSection({ title, subtitle, members, isBoard = false, badgeText }: T
                 <div
                   className={`relative aspect-square rounded-full overflow-hidden border-2 transition-colors duration-300 bg-neutral-850 shrink-0 shadow-lg mt-2 ${
                     isBoard
-                      ? "w-32 h-32 sm:w-36 sm:h-36 border-[#ff8a4c]/40 group-hover:border-[#ff8a4c]"
-                      : "w-28 h-28 sm:w-32 sm:h-32 border-neutral-800 group-hover:border-[#ff8a4c]/60"
+                      ? "w-44 h-44 sm:w-48 sm:h-48 border-[#ff8a4c]/40 group-hover:border-[#ff8a4c]"
+                      : "w-40 h-40 sm:w-44 sm:h-44 border-neutral-800 group-hover:border-[#ff8a4c]/60"
                   }`}
                 >
                   {member.image ? (
@@ -240,7 +240,7 @@ function FacultyAdvisorsSection({ advisors }: { advisors: FacultyAdvisor[] }) {
           </p>
         </div>
 
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 justify-items-center max-w-5xl mx-auto">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 justify-items-center max-w-6xl mx-auto">
           {advisors.map((advisor, index) => (
             <motion.div
               key={advisor.id}
@@ -254,10 +254,10 @@ function FacultyAdvisorsSection({ advisors }: { advisors: FacultyAdvisor[] }) {
                 effect="gravitate"
                 tiltLimit={12}
                 scale={1.03}
-                className="group relative w-full h-full min-h-[350px] rounded-2xl bg-neutral-900/90 border border-neutral-800 shadow-xl p-6 flex flex-col items-center text-center justify-between hover:border-neutral-700 transition-colors"
+                className="group relative w-full h-full min-h-[420px] rounded-2xl bg-neutral-900/90 border border-neutral-800 shadow-xl p-6 flex flex-col items-center text-center justify-between hover:border-neutral-700 transition-colors"
               >
                 {/* Circular Avatar */}
-                <div className="relative w-28 h-28 sm:w-32 sm:h-32 aspect-square rounded-full overflow-hidden border-2 border-neutral-800 group-hover:border-[#ff8a4c]/70 transition-colors duration-300 bg-neutral-850 shrink-0 shadow-md mt-2">
+                <div className="relative w-40 h-40 sm:w-44 sm:h-44 aspect-square rounded-full overflow-hidden border-2 border-neutral-800 group-hover:border-[#ff8a4c]/70 transition-colors duration-300 bg-neutral-850 shrink-0 shadow-md mt-2">
                   <Image
                     src={advisor.img}
                     alt={advisor.name}

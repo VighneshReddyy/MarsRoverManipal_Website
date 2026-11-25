@@ -73,7 +73,7 @@ export default function AlumniPage() {
       <Header />
 
       {/* Hero Section */}
-      <section className="pt-32 pb-12 px-6 md:px-12 text-center max-w-5xl mx-auto">
+      <section className="pt-32 pb-12 px-6 md:px-12 text-center max-w-6xl mx-auto">
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
@@ -150,7 +150,7 @@ export default function AlumniPage() {
         ) : (
           <motion.div
             layout
-            className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6 md:gap-8 justify-items-center"
+            className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 md:gap-8 justify-items-center"
           >
             <AnimatePresence>
               {displayedMembers.map((member, idx) => {
@@ -168,10 +168,10 @@ export default function AlumniPage() {
                       effect="gravitate"
                       tiltLimit={14}
                       scale={1.03}
-                      className="group relative w-full h-full min-h-[380px] rounded-xl bg-neutral-900/90 border border-neutral-800 shadow-xl p-6 flex flex-col items-center text-center justify-between hover:border-neutral-700 transition-colors"
+                      className="group relative w-full h-full min-h-[420px] rounded-xl bg-neutral-900/90 border border-neutral-800 shadow-xl p-6 flex flex-col items-center text-center justify-between hover:border-neutral-700 transition-colors"
                     >
                       {/* Circular Avatar */}
-                      <div className="relative w-28 h-28 sm:w-32 sm:h-32 aspect-square rounded-full overflow-hidden border-2 border-neutral-800 group-hover:border-[#ff8a4c]/70 transition-colors duration-300 bg-neutral-850 shrink-0 shadow-md mt-1">
+                      <div className="relative w-40 h-40 sm:w-44 sm:h-44 aspect-square rounded-full overflow-hidden border-2 border-neutral-800 group-hover:border-[#ff8a4c]/70 transition-colors duration-300 bg-neutral-850 shrink-0 shadow-md mt-1">
                         {imgUrl ? (
                           imgUrl.startsWith("http") ? (
                             // eslint-disable-next-line @next/next/no-img-element
