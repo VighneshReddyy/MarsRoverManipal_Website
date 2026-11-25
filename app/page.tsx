@@ -592,16 +592,11 @@ export default function Home() {
         }
         .stat strong {
           display: block;
-          font-size: clamp(68px, 8vw, 112px);
-          font-weight: 700;
-          letter-spacing: -0.06em;
-          line-height: 0.95;
-          color: #ff8a3d;
-          background: linear-gradient(135deg, #fff0cc 0%, #ffb04f 28%, #ff6a23 55%, #ffd394 76%, #f57832 100%);
-          background-clip: text;
-          -webkit-background-clip: text;
-          -webkit-text-fill-color: transparent;
-          filter: drop-shadow(0 0 20px rgba(255, 112, 37, 0.32));
+          font-size: clamp(40px, 4.5vw, 60px);
+          font-weight: 500;
+          letter-spacing: -0.04em;
+          line-height: 1;
+          color: #fff;
         }
         .fig {
           position: relative;

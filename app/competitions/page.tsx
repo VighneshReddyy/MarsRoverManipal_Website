@@ -5,7 +5,8 @@ import Header from "@/components/header"
 import Footer from "@/components/footer"
 import { motion } from "framer-motion"
 import { useState } from "react"
-import { ExternalLink, Trophy, Medal, Award, Globe } from "lucide-react"
+import { ExternalLink, Trophy, Medal, Award, Images } from "lucide-react"
+import { Dialog, DialogContent, DialogHeader, DialogTitle, DialogTrigger } from "@/components/ui/dialog"
 
 interface Competition {
   id: number
@@ -93,9 +94,9 @@ const competitionData: CompetitionCategory[] = [
         year: "2026",
         position: "7th Place",
         info: "In the International Rover Challenge 2026, Mars Rover Manipal competed against premier collegiate teams in intense field maneuvers, securing 7th place overall with strong showings in autonomous traversal and manipulation tasks.",
-        image: "/irc/irc2024.jpg",
+        image: "/placeholder.jpg",
         website: "https://www.spaceroboticssociety.org/events/international-rover-challenge/",
-        photos: ["/irc/irc2024.jpg", "/irc/image4.jpg", "/irc/image5.jpg"],
+        photos: [],
       },
       {
         id: 2,
@@ -103,9 +104,9 @@ const competitionData: CompetitionCategory[] = [
         year: "2025",
         position: "1st Place",
         info: "Mars Rover Manipal clinched 1st Place at the International Rover Challenge 2025, outperforming international teams across all four operational challenges including autonomous navigation, science sample collection, and extreme terrain traversal.",
-        image: "/photos/irc2024-first-place.jpg",
+        image: "/placeholder.jpg",
         website: "https://www.spaceroboticssociety.org/events/international-rover-challenge/",
-        photos: ["/photos/irc2024-first-place.jpg", "/irc/irc2024.jpg"],
+        photos: [],
       },
       {
         id: 3,
@@ -115,7 +116,17 @@ const competitionData: CompetitionCategory[] = [
         info: "Mars Rover Manipal secured 1st place among 25 global qualifiers at the International Rover Challenge 2024, held at PSG College of Technology in Coimbatore from January 24th to 29th. Organized by SproS, this accomplishment underscores the team's technical prowess and positions them prominently in the global space exploration community.",
         image: "/irc/irc2024.jpg",
         website: "https://www.spaceroboticssociety.org/events/international-rover-challenge/",
-        photos: ["/irc/irc2024.jpg", "/photos/irc2024-first-place.jpg", "/irc/image4.jpg"],
+        photos: ["/irc/irc2024.jpg"],
+      },
+      {
+        id: 6,
+        name: "IRC 2023",
+        year: "2023",
+        position: "Participation",
+        info: "Mars Rover Manipal at the International Rover Challenge 2023.",
+        image: "/irc/irc2023.jpg",
+        website: "https://www.spaceroboticssociety.org/events/international-rover-challenge/",
+        photos: ["/irc/irc2023.jpg"],
       },
       {
         id: 4,
@@ -125,7 +136,7 @@ const competitionData: CompetitionCategory[] = [
         info: "Indian Rover Challenge (IRC) 2019, the second edition, featured design challenges and technicalities, encouraging students from all over the world to provide solutions and move closer towards the next phases of space exploration. It was organized by the students of Mars Rover Manipal in association with Manipal Academy of Higher Education and the Mars Society.",
         image: "/irc/image1.jpg",
         website: "https://southasia.marssociety.org/indianroverchallenge/irc-2019/",
-        photos: ["/irc/image1.jpg", "/irc/image5.jpg"],
+        photos: ["/irc/image1.jpg"],
       },
       {
         id: 5,
@@ -135,7 +146,7 @@ const competitionData: CompetitionCategory[] = [
         info: "Mars Rover Manipal participated in IRC 2018 along with teams from all over Asia. The event was organized by ISTE VIT and Creative Labs at Vellore Institute of Technology. Mars Rover Manipal performed very well and were declared winners with a final score of 616 points out of 760, beating the second closest opponent by a margin of 129 points.",
         image: "/irc/image3.webp",
         website: "https://southasia.marssociety.org/irdc/",
-        photos: ["/irc/image3.webp", "/irc/image1.jpg"],
+        photos: ["/irc/image3.webp"],
       },
     ],
   },
@@ -153,9 +164,9 @@ const competitionData: CompetitionCategory[] = [
         year: "2024",
         position: "18th Worldwide",
         info: "The 18th edition of University Rover Challenge was held at the Mars Desert Research Station in Hanksville, Utah from 29th May to June 1st 2024. Mars Rover Manipal was able to maintain its streak of being the best rover team from India for its 7th consecutive year.",
-        image: "/urc2024/urc2024.jpg",
+        image: "/urc2024/team.jpg",
         video: "https://www.youtube.com/embed/CnRiPZGofaw",
-        photos: ["/urc2024/team.jpg", "/urc2024/rdo1.jpg", "/urc2024/rdo2.jpg", "/urc2024/esm1.jpg"],
+        photos: ["/urc2024/team.jpg", "/urc2024/urc2024.jpg", "/urc2024/rdo1.jpg", "/urc2024/rdo2.jpg", "/urc2024/esm1.jpg", "/urc2024/esm2.jpg", "/urc2024/esm3.jpg", "/urc2024/sm.jpg", "/urc2024/bike.jpg"],
       },
       {
         id: 2,
@@ -165,7 +176,17 @@ const competitionData: CompetitionCategory[] = [
         info: "The 16th edition of University Rover Challenge was held at the Mars Desert Research Station in Hanksville, Utah from June 1st to June 4th 2022. MRM was also the recipient of the prestigious John Barainca award for the best science team in the competition, securing an 85/100 in this challenging mission.",
         image: "/urc2022/urc2022-5.webp",
         video: "https://www.youtube.com/embed/tgAOEiIUJ5k",
-        photos: ["/urc2022/urc2022-1.webp", "/urc2022/urc2022-2.webp", "/urc2022/urc2022-3.webp", "/urc2022/urc2022-5.webp"],
+        photos: ["/urc2022/urc2022-5.webp", "/urc2022/urc2022-1.webp", "/urc2022/urc2022-2.webp", "/urc2022/urc2022-3.webp", "/urc2022/urc2022-4.webp", "/urc2022/urc2022-6.webp"],
+      },
+      {
+        id: 8,
+        name: "URC 2021",
+        year: "2021",
+        position: "91.17 SAR Score",
+        info: "The 2021 University Rover Challenge was cancelled due to the pandemic. Mars Rover Manipal scored 91.17 in the System Acceptance Review.",
+        image: "/photos-urc2021/grp_1.jpg",
+        video: "https://www.youtube.com/embed/rbkrRSdEiOA",
+        photos: ["/photos-urc2021/grp_1.jpg", "/photos-urc2021/board_1.jpg", "/photos-urc2021/mem_1.jpg", "/photos-urc2021/rover_1.jpg", "/photos-urc2021/rover1_1.jpg"],
       },
       {
         id: 3,
@@ -173,9 +194,9 @@ const competitionData: CompetitionCategory[] = [
         year: "2020",
         position: "7th Worldwide",
         info: "The 14th edition of University Rover Challenge was cancelled due to the Corona virus Pandemic. MRM stood 1st in India, 2nd in Asia and 7th worldwide based on SAR results. We also continued our run of being the best Indian Rover Team for the fourth consecutive year.",
-        image: "/comp/2020Rover.webp",
+        image: "/photos20/team.webp",
         video: "https://www.youtube.com/embed/V22SHOJQx4I",
-        photos: ["/comp/2020Rover.webp", "/photos/photos20-team-photo.webp", "/photos/photos20-rover-autonomous.webp"],
+        photos: ["/photos20/team.webp", "/photos20/Rover 2020.webp", "/photos20/Rover autonomous.webp", "/photos20/robo.webp", "/photos20/PCB Power.webp"],
       },
       {
         id: 4,
@@ -185,7 +206,7 @@ const competitionData: CompetitionCategory[] = [
         info: "MRM secured the 8th rank globally which placed us as the best rover team in Asia. MRM was the recipient of the prestigious Barainca award for the best science team in the competition, securing a 95/100 in this challenging mission.",
         image: "/comp/urc2019.webp",
         video: "https://www.youtube.com/embed/vY86gCyUFQ8",
-        photos: ["/comp/urc2019.webp", "/photos/photos19-quarry-test.jpg", "/photos/photos19-night-test.jpg"],
+        photos: ["/comp/urc2019.webp", "/Photos19/1.jpg", "/Photos19/2.webp", "/Photos19/3.jpg", "/Photos19/4.jpg", "/Photos19/5.jpg", "/Photos19/6.jpg", "/Photos19/7.jpg", "/Photos19/8.jpg", "/Photos19/9.jpg"],
       },
       {
         id: 5,
@@ -195,7 +216,7 @@ const competitionData: CompetitionCategory[] = [
         info: "MRM secured a world rank of 7 in URC 2018. Our rover Airawat once again placed us as India's best and Asia's second best rover team at URC.",
         image: "/comp/urc2018.webp",
         video: "https://www.youtube.com/embed/8QmRq4NSOIg",
-        photos: ["/comp/urc2018.webp"],
+        photos: ["/comp/urc2018.webp", "/urc2017/rover18a.webp", "/urc2017/rover18b.webp", "/urc2017/rover18c.webp", "/urc2017/rover18d.webp", "/urc2017/rover18e.webp"],
       },
       {
         id: 6,
@@ -205,7 +226,7 @@ const competitionData: CompetitionCategory[] = [
         info: "We achieved 8th position all over the world. Our rover was the best performer from India and Asia. Our biggest highlight was the score of 100 out of 100 in the Science Cache Task.",
         image: "/comp/rover17.jpeg",
         video: "https://www.youtube.com/embed/6Mr8owXfWoc",
-        photos: ["/comp/rover17.jpeg"],
+        photos: ["/comp/rover17.jpeg", "/urc2017/image1.webp", "/urc2017/image2.webp", "/urc2017/image3.webp", "/urc2017/image4.webp", "/urc2017/image5.jpg"],
       },
       {
         id: 7,
@@ -215,7 +236,7 @@ const competitionData: CompetitionCategory[] = [
         info: "This was the first time we were participating in URC. 63 teams registered for the competition and 28 were selected. We stood 13th all over the world. Our rover was ranked second best in India and Asia.",
         image: "/comp/rover16.webp",
         video: "https://www.youtube.com/embed/cG70pC12jTU",
-        photos: ["/comp/rover16.webp"],
+        photos: ["/comp/rover16.webp", "/urc2016/image1.webp", "/urc2016/image2.webp", "/urc2016/image3.jpg", "/urc2016/image4.webp", "/urc2016/image5.webp"],
       },
     ],
   },
@@ -375,6 +396,25 @@ function CompetitionCard({ competition, index }: { competition: Competition; ind
               Official Portal
             </a>
           )}
+          {competition.photos && competition.photos.length > 0 && (
+            <Dialog>
+              <DialogTrigger asChild>
+                <button className="inline-flex items-center gap-1.5 rounded-md border border-[#ff8a4c]/40 px-3 py-1.5 text-xs font-mono text-[#ff8a4c] transition-colors hover:bg-[#ff8a4c]/10">
+                  <Images className="w-3.5 h-3.5" /> Photos
+                </button>
+              </DialogTrigger>
+              <DialogContent className="max-h-[85vh] max-w-4xl overflow-y-auto border-neutral-800 bg-neutral-950 text-white">
+                <DialogHeader><DialogTitle>{competition.name} Photos</DialogTitle></DialogHeader>
+                <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
+                  {competition.photos.map((photo, i) => (
+                    <a key={photo} href={photo} target="_blank" rel="noopener noreferrer" className="relative block aspect-[4/3] overflow-hidden rounded-lg bg-neutral-900">
+                      <Image src={photo} alt={`${competition.name} photo ${i + 1}`} fill className="object-contain" sizes="(max-width: 640px) 90vw, 40vw" />
+                    </a>
+                  ))}
+                </div>
+              </DialogContent>
+            </Dialog>
+          )}
           {competition.video && (
             <a
               href={competition.video}
@@ -388,26 +428,7 @@ function CompetitionCard({ competition, index }: { competition: Competition; ind
           )}
         </div>
 
-        {/* Inline Photo Strip */}
-        {competition.photos && competition.photos.length > 0 && (
-          <div className="mt-4 flex gap-2 overflow-x-auto pb-1 scrollbar-thin scrollbar-thumb-neutral-700">
-            {competition.photos.map((photo, i) => (
-              <div
-                key={i}
-                className="relative flex-shrink-0 w-20 h-14 rounded-lg overflow-hidden border border-neutral-800 group/ph cursor-pointer hover:border-[#ff8a4c]/60 transition-colors"
-                onClick={() => window.open(photo, "_blank")}
-              >
-                <Image
-                  src={photo}
-                  alt={`${competition.name} photo ${i + 1}`}
-                  fill
-                  className="object-cover transition-transform duration-300 group-hover/ph:scale-110"
-                />
-                <div className="absolute inset-0 bg-black/20 group-hover/ph:bg-black/0 transition-colors" />
-              </div>
-            ))}
-          </div>
-        )}
+
       </div>
     </motion.div>
   )
@@ -433,10 +454,6 @@ function CompetitionSection({ category }: { category: CompetitionCategory }) {
           />
         </div>
         <div className="text-center md:text-left">
-          <div className="inline-flex items-center gap-2 text-xs font-mono text-[#ff8a4c] tracking-widest uppercase mb-1">
-            <Globe size={13} />
-            <span>International Mission Circuit</span>
-          </div>
           <h2 className="text-2xl md:text-3xl font-bold text-white mb-2">
             {category.fullName} ({category.name})
           </h2>
@@ -475,9 +492,6 @@ export default function CompetitionsPage() {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8 }}
         >
-          <div className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full border border-neutral-800 bg-neutral-900/60 text-xs font-mono tracking-widest text-[#ff8a4c] uppercase mb-4">
-            <Trophy size={14} /> Global Track Record
-          </div>
           <h1 className="text-4xl md:text-6xl font-bold mb-4 tracking-tight">
             Competitions
           </h1>
