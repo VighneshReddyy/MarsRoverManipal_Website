@@ -6,7 +6,7 @@ import Header from "@/components/header"
 import Footer from "@/components/footer"
 import { TiltCard } from "@/components/ui/tilt-card"
 import { motion, AnimatePresence } from "framer-motion"
-import { Linkedin, Github, GraduationCap, Users } from "lucide-react"
+import { Linkedin, Github, Users } from "lucide-react"
 import rawAlumniData from "@/lib/alumni.json"
 
 interface AlumniMember {
@@ -42,31 +42,9 @@ export default function AlumniPage() {
   }, [])
 
   const [selectedYear, setSelectedYear] = useState<string>("2026")
-  const [searchQuery, setSearchQuery] = useState<string>("")
 
-  const displayedMembers = useMemo(() => {
-    let list: AlumniMember[] = []
-    if (selectedYear === "all") {
-      years.forEach((yr) => {
-        list = list.concat(alumniByYear[yr] || [])
-      })
-    } else {
-      list = alumniByYear[selectedYear] || []
-    }
+  const displayedMembers = alumniByYear[selectedYear] || []
 
-    if (!searchQuery.trim()) return list
-    const q = searchQuery.toLowerCase().trim()
-    return list.filter(
-      (m) =>
-        m.name.toLowerCase().includes(q) ||
-        (m.pos && m.pos.toLowerCase().includes(q)) ||
-        (m.year && m.year.includes(q))
-    )
-  }, [selectedYear, years, searchQuery])
-
-  const totalAlumniCount = useMemo(() => {
-    return Object.values(alumniByYear).reduce((acc, curr) => acc + curr.length, 0)
-  }, [])
 
   return (
     <main className="bg-neutral-950 min-h-screen text-white">
@@ -79,32 +57,13 @@ export default function AlumniPage() {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8 }}
         >
-          <div className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full border border-neutral-800 bg-neutral-900/60 backdrop-blur-sm text-xs font-mono tracking-widest text-[#ff8a4c] uppercase mb-4">
-            <GraduationCap size={16} />
-            Decade of Discoverers
-          </div>
           <h1 className="text-4xl md:text-6xl font-bold mb-4 tracking-tight">
             Our Alumni
           </h1>
-          <p className="text-neutral-400 max-w-2xl mx-auto text-base md:text-lg">
-            Over {totalAlumniCount} former Mars Rover Manipal engineers, designers, researchers, and
-            leaders who helped pioneer autonomous extraterrestrial exploration and now lead across
-            the global aerospace and tech industries.
-          </p>
         </motion.div>
 
         {/* Year Selector Tabs */}
         <div className="mt-10 flex flex-wrap justify-center gap-2 max-w-4xl mx-auto">
-          <button
-            onClick={() => setSelectedYear("all")}
-            className={`px-4 py-2 rounded-full text-xs font-mono uppercase tracking-wider transition-all duration-200 cursor-pointer ${
-              selectedYear === "all"
-                ? "bg-[#ff8a4c] text-black font-semibold shadow-lg shadow-[#ff8a4c]/20"
-                : "bg-neutral-900 border border-neutral-800 text-neutral-300 hover:border-neutral-700"
-            }`}
-          >
-            All Batches ({totalAlumniCount})
-          </button>
           {years.map((year) => {
             const count = alumniByYear[year]?.length || 0
             const isSelected = selectedYear === year
@@ -119,25 +78,12 @@ export default function AlumniPage() {
                 }`}
               >
                 {year}
-                {year === "2026" && (
-                  <span className="ml-1 text-[10px] opacity-80">(Latest)</span>
-                )}
                 <span className="ml-1.5 opacity-60">[{count}]</span>
               </button>
             )
           })}
         </div>
 
-        {/* Search Bar */}
-        <div className="mt-8 max-w-md mx-auto">
-          <input
-            type="text"
-            placeholder="Search alumni by name or position..."
-            value={searchQuery}
-            onChange={(e) => setSearchQuery(e.target.value)}
-            className="w-full px-4 py-2.5 bg-neutral-900 border border-neutral-800 rounded-full text-sm text-white placeholder-neutral-500 focus:outline-none focus:border-[#ff8a4c] transition-colors text-center"
-          />
-        </div>
       </section>
 
       {/* Alumni Grid */}
@@ -212,11 +158,6 @@ export default function AlumniPage() {
                         {member.pos && (
                           <p className="text-xs text-neutral-300 font-medium tracking-wide uppercase line-clamp-2">
                             {member.pos}
-                          </p>
-                        )}
-                        {member.description && (
-                          <p className="text-[11px] text-neutral-400 mt-1 line-clamp-2 italic">
-                            {member.description}
                           </p>
                         )}
                       </div>
