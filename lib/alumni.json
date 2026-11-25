@@ -2469,6 +2469,50 @@
       "domain": "",
       "description": "",
       "year": "2026"
+    },
+    {
+      "id": 101,
+      "name": "Siddharth Penumatsa",
+      "img": "",
+      "pos": "Senior Researcher",
+      "linkedin": "https://www.linkedin.com/in/siddharth-penumatsa-967464280/",
+      "github": "",
+      "domain": "Research",
+      "description": "VLSI Design Engineer, Researcher",
+      "year": "2026"
+    },
+    {
+      "id": 102,
+      "name": "Dhrumil Bhatt",
+      "img": "https://drive.google.com/file/d/1H76ZWWJsX54zbELggBuf37xmBEBx-vkn/view?usp=sharing",
+      "pos": "Senior Researcher",
+      "linkedin": "https://www.linkedin.com/in/dhrumilbhatt26",
+      "github": "",
+      "domain": "Research",
+      "description": "Electrical and Electronics Engineer, Researcher",
+      "year": "2026"
+    },
+    {
+      "id": 103,
+      "name": "Aadiv Rath",
+      "img": "https://drive.google.com/file/d/1M7r0Un635ivC2VjwYA5WDM1H0gxHIYyY/view?usp=sharing",
+      "pos": "Senior Researcher",
+      "linkedin": "https://www.linkedin.com/in/aadivrath/",
+      "github": "",
+      "domain": "Research",
+      "description": "Machine Learning and AI Researcher",
+      "year": "2026"
+    },
+    {
+      "id": 104,
+      "name": "Aditya Naidu",
+      "img": "https://drive.google.com/file/d/1TYLmiaRufc09GpJdYFBh87OYDwxaL5k8/view?usp=drive_link",
+      "pos": "Senior Researcher",
+      "linkedin": "https://www.linkedin.com/in/aditya-naidu-7620232a7/",
+      "github": "https://github.com/adityaX1412",
+      "domain": "Research",
+      "description": "Machine Learning and AI Researcher",
+      "year": "2026"
     }
   ]
 }

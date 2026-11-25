@@ -5,7 +5,7 @@ import Header from "@/components/header"
 import Footer from "@/components/footer"
 import { motion } from "framer-motion"
 import { useState } from "react"
-import { ExternalLink, Trophy, Medal, Award } from "lucide-react"
+import { ExternalLink, Trophy, Medal, Award, Globe } from "lucide-react"
 
 interface Competition {
   id: number
@@ -21,6 +21,7 @@ interface Competition {
 interface CompetitionCategory {
   id: string
   name: string
+  fullName: string
   logo: string
   description: string
   competitions: Competition[]
@@ -28,13 +29,79 @@ interface CompetitionCategory {
 
 const competitionData: CompetitionCategory[] = [
   {
-    id: "irc",
-    name: "IRC",
-    logo: "/comp_logo/SPROS_IRC_logo.png",
-    description: "The International Rover Challenge (formerly known as the Indian Rover Challenge), organized by the Space Robotics Society, is an annual robotics competition designed to provide students worldwide with an engineering challenge in the realm of space exploration. Distinguished as the sole competition of its kind in the Asia-Pacific region, the IRC serves the critical objective of fostering innovation and inspiring aspiring engineers.",
+    id: "erc",
+    name: "ERC",
+    fullName: "European Rover Challenge",
+    logo: "/comp_logo/ERC_Logo.png",
+    description:
+      "The European Rover Challenge is an international robotics competition where academic teams from around the world present their mobile robot designs, competing in planetary challenges based on real ESA and NASA missions. The competition takes place on the world's largest artificial Martian track in Poland.",
     competitions: [
       {
         id: 1,
+        name: "ERC 2026",
+        year: "2026",
+        position: "10th Worldwide",
+        info: "At the European Rover Challenge 2026 hosted in Poland, Mars Rover Manipal achieved 10th place worldwide among elite collegiate robotics teams, showcasing an advanced five-bar suspension rover with autonomous waypoint navigation, astrobiology life-detection, and precision manipulator servicing.",
+        image: "/photos/erc2022-team-poland.webp",
+        website: "https://roverchallenge.eu/en/main-page/",
+      },
+      {
+        id: 2,
+        name: "ERC 2025",
+        year: "2025",
+        position: "10th Worldwide",
+        info: "Mars Rover Manipal secured 10th place globally at the European Rover Challenge 2025. Competing against international robotics institutions, the team demonstrated robust telemetry, modular electronics architecture, and specialized astrobiology payloads.",
+        image: "/photos/erc2021-podium.webp",
+        website: "https://roverchallenge.eu/en/main-page/",
+      },
+      {
+        id: 3,
+        name: "ERC 2022",
+        year: "2022",
+        position: "2nd Position",
+        info: "Mars Rover Manipal finished 2nd out of 28 teams from around the world in the remote edition of the European Rover Challenge (ERC) 2022. In addition, we were awarded The Best Performing Team in the Science, Maintenance and Presentation Tasks.",
+        image: "/comp/ercteam22.webp",
+        website: "https://roverchallenge.eu/en/main-page/",
+      },
+      {
+        id: 4,
+        name: "ERC 2021",
+        year: "2021",
+        position: "4th Position",
+        info: "Mars Rover Manipal finished 4th out of 34 teams from around the world in the remote edition of the European Rover Challenge (ERC). In addition, we received an honourable mention as the best performing team in the presentation task.",
+        image: "/comp/ERC_TEAM.webp",
+        website: "https://roverchallenge.eu/en/main-page/",
+      },
+    ],
+  },
+  {
+    id: "irc",
+    name: "IRC",
+    fullName: "International Rover Challenge",
+    logo: "/comp_logo/SPROS_IRC_logo.png",
+    description:
+      "The International Rover Challenge (formerly Indian Rover Challenge), organized by the Space Robotics Society, is a premier annual robotics competition designed to challenge university teams in autonomous navigation, biosensing, and mechanical durability in extreme terrestrial analog sites.",
+    competitions: [
+      {
+        id: 1,
+        name: "IRC 2026",
+        year: "2026",
+        position: "7th Place",
+        info: "In the International Rover Challenge 2026, Mars Rover Manipal competed against premier collegiate teams in intense field maneuvers, securing 7th place overall with strong showings in autonomous traversal and manipulation tasks.",
+        image: "/photos/irc-competition-field.webp",
+        website: "https://www.spaceroboticssociety.org/events/international-rover-challenge/",
+      },
+      {
+        id: 2,
+        name: "IRC 2025",
+        year: "2025",
+        position: "1st Place",
+        info: "Mars Rover Manipal clinched 1st Place at the International Rover Challenge 2025, outperforming international teams across all four operational challenges including autonomous navigation, science sample collection, and extreme terrain traversal.",
+        image: "/irc/irc2024.jpg",
+        website: "https://www.spaceroboticssociety.org/events/international-rover-challenge/",
+      },
+      {
+        id: 3,
         name: "IRC 2024",
         year: "2024",
         position: "1st Position",
@@ -43,7 +110,7 @@ const competitionData: CompetitionCategory[] = [
         website: "https://www.spaceroboticssociety.org/events/international-rover-challenge/",
       },
       {
-        id: 2,
+        id: 4,
         name: "IRC 2019",
         year: "2019",
         position: "Host",
@@ -52,7 +119,7 @@ const competitionData: CompetitionCategory[] = [
         website: "https://southasia.marssociety.org/indianroverchallenge/irc-2019/",
       },
       {
-        id: 3,
+        id: 5,
         name: "IRC 2018",
         year: "2018",
         position: "1st Position",
@@ -65,8 +132,10 @@ const competitionData: CompetitionCategory[] = [
   {
     id: "urc",
     name: "URC",
+    fullName: "University Rover Challenge",
     logo: "/comp_logo/URC_Logo.webp",
-    description: "The University Rover Challenge is a premier robotics competition organized annually by the Mars Society USA during summer at Mars Desert Research Station (MDRS) in Utah, USA. The challenge is to build a next-generation Mars Rover capable of working alongside humans in future Martian colonies.",
+    description:
+      "The University Rover Challenge is a premier robotics competition organized annually by the Mars Society USA during summer at Mars Desert Research Station (MDRS) in Hanksville, Utah. The challenge is to build a next-generation Mars Rover capable of working alongside astronauts in future Martian colonies.",
     competitions: [
       {
         id: 1,
@@ -136,8 +205,10 @@ const competitionData: CompetitionCategory[] = [
   {
     id: "irdc",
     name: "IRDC",
+    fullName: "International Rover Design Challenge",
     logo: "/comp_logo/MSSA_Logo.png",
-    description: "The International Rover Design Challenge is a competition for university students which challenges to design Mars rovers which shall be fully equipped and mission ready for Operation on Mars. Teams are supposed to carefully plan each subsystem of the rover considering various extra-terrestrial parameters in design.",
+    description:
+      "The International Rover Design Challenge is a design engineering competition that challenges students to design Mars rovers equipped and mission-ready for Martian conditions. Teams carefully plan each subsystem considering extreme extraterrestrial parameters.",
     competitions: [
       {
         id: 1,
@@ -178,36 +249,12 @@ const competitionData: CompetitionCategory[] = [
     ],
   },
   {
-    id: "erc",
-    name: "ERC",
-    logo: "/comp_logo/ERC_Logo.png",
-    description: "The European Rover Challenge is an international robotics competition, where academic teams from around the world present their mobile robot designs, competing in competitions based on real ESA and NASA missions. The competition takes place on the world's largest artificial Martian track.",
-    competitions: [
-      {
-        id: 1,
-        name: "ERC 2022",
-        year: "2022",
-        position: "2nd Position",
-        info: "Mars Rover Manipal finished 2nd out of 28 teams from around the world in the remote edition of the European Rover Challenge (ERC) 2022. In addition, we were awarded The Best Performing Team in the Science, Maintenance and Presentation Tasks.",
-        image: "/comp/ercteam22.webp",
-        website: "https://roverchallenge.eu/en/main-page/",
-      },
-      {
-        id: 2,
-        name: "ERC 2021",
-        year: "2021",
-        position: "4th Position",
-        info: "Mars Rover Manipal finished 4th out of 34 teams from around the world in the remote edition of the European Rover Challenge (ERC). In addition, we received an honourable mention as the best performing team in the presentation task.",
-        image: "/comp/ERC_TEAM.webp",
-        website: "https://roverchallenge.eu/en/main-page/",
-      },
-    ],
-  },
-  {
     id: "imh",
     name: "IMH",
+    fullName: "International Mars Hackathon",
     logo: "/comp_logo/MSSA_Logo.png",
-    description: "International Mars Hackathon challenges teams from diverse disciplines to come up with insightful solutions to mind-boggling Space Exploration problems! The 48hr competition requires students to think on their feet and devise creative approaches in several thematic areas.",
+    description:
+      "International Mars Hackathon challenges teams from diverse disciplines to come up with insightful solutions to mind-boggling Space Exploration problems in a rapid 48hr intense hackathon format.",
     competitions: [
       {
         id: 1,
@@ -222,66 +269,88 @@ const competitionData: CompetitionCategory[] = [
   },
 ]
 
-function getPositionIcon(position: string) {
+function getPositionBadge(position: string) {
   const lower = position.toLowerCase()
   if (lower.includes("1st") || lower.includes("first")) {
-    return <Trophy className="w-5 h-5 text-yellow-400" />
+    return {
+      icon: <Trophy className="w-4 h-4 text-yellow-400" />,
+      color: "border-yellow-500/40 bg-yellow-950/60 text-yellow-300",
+    }
   } else if (lower.includes("2nd") || lower.includes("second")) {
-    return <Medal className="w-5 h-5 text-gray-300" />
+    return {
+      icon: <Medal className="w-4 h-4 text-slate-300" />,
+      color: "border-slate-500/40 bg-slate-900/70 text-slate-200",
+    }
   } else if (lower.includes("3rd") || lower.includes("third")) {
-    return <Medal className="w-5 h-5 text-amber-600" />
+    return {
+      icon: <Medal className="w-4 h-4 text-amber-500" />,
+      color: "border-amber-600/40 bg-amber-950/60 text-amber-300",
+    }
   }
-  return <Award className="w-5 h-5 text-blue-400" />
+  return {
+    icon: <Award className="w-4 h-4 text-[#ff8a4c]" />,
+    color: "border-[#ff8a4c]/40 bg-[#ff8a4c]/10 text-[#ff8a4c]",
+  }
 }
 
 function CompetitionCard({ competition, index }: { competition: Competition; index: number }) {
+  const badge = getPositionBadge(competition.position)
+
   return (
     <motion.div
       initial={{ opacity: 0, y: 20 }}
       whileInView={{ opacity: 1, y: 0 }}
       viewport={{ once: true }}
-      transition={{ duration: 0.5, delay: index * 0.1 }}
-      className="group relative bg-neutral-900 rounded-lg overflow-hidden border border-neutral-800 hover:border-neutral-600 transition-all duration-300"
+      transition={{ duration: 0.5, delay: Math.min(index * 0.08, 0.4) }}
+      className="group relative bg-neutral-900/80 rounded-xl overflow-hidden border border-neutral-800 hover:border-[#ff8a4c]/60 transition-all duration-300 flex flex-col justify-between shadow-lg"
     >
-      {/* Image */}
-      <div className="relative h-48 overflow-hidden">
+      {/* Top Image */}
+      <div className="relative h-52 overflow-hidden bg-neutral-950">
         <Image
           src={competition.image}
           alt={competition.name}
           fill
-          className="object-cover transition-transform duration-500 group-hover:scale-105"
+          className="object-cover transition-transform duration-700 ease-out group-hover:scale-105"
         />
         <div className="absolute inset-0 bg-gradient-to-t from-neutral-900 via-transparent to-transparent" />
-        
+
         {/* Position Badge */}
-        <div className="absolute top-4 right-4 flex items-center gap-2 bg-black/70 backdrop-blur-sm px-3 py-1.5 rounded-full">
-          {getPositionIcon(competition.position)}
-          <span className="text-sm font-medium text-white">{competition.position}</span>
+        <div
+          className={`absolute top-3 right-3 flex items-center gap-1.5 backdrop-blur-md px-3 py-1 rounded-full border text-xs font-mono font-medium shadow-md ${badge.color}`}
+        >
+          {badge.icon}
+          <span>{competition.position}</span>
         </div>
       </div>
 
       {/* Content */}
-      <div className="p-6">
-        <div className="flex items-center justify-between mb-3">
-          <h3 className="text-xl font-bold text-white">{competition.name}</h3>
-          <span className="text-sm text-neutral-400">{competition.year}</span>
+      <div className="p-6 flex-1 flex flex-col justify-between">
+        <div>
+          <div className="flex items-center justify-between mb-2">
+            <h3 className="text-xl font-bold text-white group-hover:text-[#ff8a4c] transition-colors">
+              {competition.name}
+            </h3>
+            <span className="text-xs font-mono px-2 py-0.5 rounded bg-white/5 border border-white/10 text-neutral-400">
+              {competition.year}
+            </span>
+          </div>
+
+          <p className="text-xs sm:text-sm text-neutral-400 leading-relaxed line-clamp-3 mb-4">
+            {competition.info}
+          </p>
         </div>
-        
-        <p className="text-sm text-neutral-400 leading-relaxed line-clamp-3 mb-4">
-          {competition.info}
-        </p>
 
         {/* Links */}
-        <div className="flex gap-3">
+        <div className="flex gap-4 pt-3 border-t border-white/5 items-center">
           {competition.website && (
             <a
               href={competition.website}
               target="_blank"
               rel="noopener noreferrer"
-              className="inline-flex items-center gap-2 text-sm text-neutral-300 hover:text-white transition-colors"
+              className="inline-flex items-center gap-1.5 text-xs font-mono text-neutral-300 hover:text-[#ff8a4c] transition-colors"
             >
-              <ExternalLink className="w-4 h-4" />
-              Website
+              <ExternalLink className="w-3.5 h-3.5 text-[#ff8a4c]" />
+              Official Portal
             </a>
           )}
           {competition.video && (
@@ -289,10 +358,10 @@ function CompetitionCard({ competition, index }: { competition: Competition; ind
               href={competition.video}
               target="_blank"
               rel="noopener noreferrer"
-              className="inline-flex items-center gap-2 text-sm text-neutral-300 hover:text-white transition-colors"
+              className="inline-flex items-center gap-1.5 text-xs font-mono text-neutral-300 hover:text-[#ff8a4c] transition-colors"
             >
-              <ExternalLink className="w-4 h-4" />
-              Video
+              <ExternalLink className="w-3.5 h-3.5 text-[#ff8a4c]" />
+              SAR Video
             </a>
           )}
         </div>
@@ -303,16 +372,16 @@ function CompetitionCard({ competition, index }: { competition: Competition; ind
 
 function CompetitionSection({ category }: { category: CompetitionCategory }) {
   return (
-    <section className="mb-24">
+    <section id={category.id} className="mb-24 scroll-mt-28">
       {/* Header with Logo and Description */}
       <motion.div
         initial={{ opacity: 0, y: 20 }}
         whileInView={{ opacity: 1, y: 0 }}
         viewport={{ once: true }}
         transition={{ duration: 0.8 }}
-        className="flex flex-col md:flex-row gap-8 mb-12 items-center"
+        className="flex flex-col md:flex-row gap-6 md:gap-8 mb-10 items-center bg-neutral-900/40 border border-neutral-800/80 p-6 md:p-8 rounded-2xl backdrop-blur-sm"
       >
-        <div className="w-32 h-32 md:w-40 md:h-40 relative flex-shrink-0 bg-white rounded-lg p-4">
+        <div className="w-24 h-24 md:w-32 md:h-32 relative flex-shrink-0 bg-white/95 rounded-xl p-3 shadow-inner flex items-center justify-center">
           <Image
             src={category.logo}
             alt={category.name}
@@ -320,9 +389,15 @@ function CompetitionSection({ category }: { category: CompetitionCategory }) {
             className="object-contain p-2"
           />
         </div>
-        <div>
-          <h2 className="text-3xl md:text-4xl font-bold text-white mb-4">{category.name}</h2>
-          <p className="text-neutral-400 leading-relaxed max-w-3xl">
+        <div className="text-center md:text-left">
+          <div className="inline-flex items-center gap-2 text-xs font-mono text-[#ff8a4c] tracking-widest uppercase mb-1">
+            <Globe size={13} />
+            <span>International Mission Circuit</span>
+          </div>
+          <h2 className="text-2xl md:text-3xl font-bold text-white mb-2">
+            {category.fullName} ({category.name})
+          </h2>
+          <p className="text-neutral-400 text-xs md:text-sm leading-relaxed max-w-3xl">
             {category.description}
           </p>
         </div>
@@ -340,62 +415,60 @@ function CompetitionSection({ category }: { category: CompetitionCategory }) {
 
 export default function CompetitionsPage() {
   const [activeTab, setActiveTab] = useState<string>("all")
-  
-  const filteredCategories = activeTab === "all" 
-    ? competitionData 
-    : competitionData.filter(cat => cat.id === activeTab)
+
+  const filteredCategories =
+    activeTab === "all"
+      ? competitionData
+      : competitionData.filter((cat) => cat.id === activeTab)
 
   return (
-    <main className="bg-neutral-950 min-h-screen text-white">
+    <main className="bg-[#06040a] min-h-screen text-white">
       <Header />
-      
+
       {/* Hero Section */}
-      <div className="pt-32 pb-16 px-6 md:px-12 text-center">
-        <motion.h1 
+      <div className="pt-32 pb-12 px-6 md:px-12 text-center max-w-4xl mx-auto">
+        <motion.div
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8 }}
-          className="text-4xl md:text-6xl font-bold mb-4 tracking-tight"
         >
-          Competitions
-        </motion.h1>
-        <motion.p
-          initial={{ opacity: 0, y: 20 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.8, delay: 0.1 }}
-          className="text-neutral-400 max-w-2xl mx-auto"
-        >
-          Mars Rover Manipal has consistently been among the top rover teams globally, 
-          competing in prestigious international competitions.
-        </motion.p>
-      </div>
+          <div className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full border border-neutral-800 bg-neutral-900/60 text-xs font-mono tracking-widest text-[#ff8a4c] uppercase mb-4">
+            <Trophy size={14} /> Global Track Record
+          </div>
+          <h1 className="text-4xl md:text-6xl font-bold mb-4 tracking-tight">
+            Competitions
+          </h1>
+          <p className="text-neutral-400 max-w-2xl mx-auto text-base md:text-lg">
+            Mars Rover Manipal represents India and Asia across premier planetary robotics challenges,
+            holding top-10 global standings in ERC Poland and championship titles in IRC.
+          </p>
+        </motion.div>
 
-      {/* Tab Navigation */}
-      <div className="px-6 md:px-12 mb-12">
+        {/* Tab Navigation */}
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8, delay: 0.2 }}
-          className="flex flex-wrap justify-center gap-3"
+          className="mt-8 flex flex-wrap justify-center gap-2"
         >
           <button
             onClick={() => setActiveTab("all")}
-            className={`px-6 py-2 rounded-full text-sm font-medium transition-all duration-300 ${
+            className={`px-5 py-2 rounded-full text-xs font-mono uppercase tracking-wider transition-all duration-300 cursor-pointer ${
               activeTab === "all"
-                ? "bg-white text-black"
-                : "bg-neutral-800 text-neutral-300 hover:bg-neutral-700"
+                ? "bg-[#ff8a4c] text-black font-semibold shadow-lg shadow-[#ff8a4c]/20"
+                : "bg-neutral-900 border border-neutral-800 text-neutral-300 hover:border-neutral-700 hover:text-white"
             }`}
           >
-            All
+            All Competitions
           </button>
           {competitionData.map((cat) => (
             <button
               key={cat.id}
               onClick={() => setActiveTab(cat.id)}
-              className={`px-6 py-2 rounded-full text-sm font-medium transition-all duration-300 ${
+              className={`px-5 py-2 rounded-full text-xs font-mono uppercase tracking-wider transition-all duration-300 cursor-pointer ${
                 activeTab === cat.id
-                  ? "bg-white text-black"
-                  : "bg-neutral-800 text-neutral-300 hover:bg-neutral-700"
+                  ? "bg-[#ff8a4c] text-black font-semibold shadow-lg shadow-[#ff8a4c]/20"
+                  : "bg-neutral-900 border border-neutral-800 text-neutral-300 hover:border-neutral-700 hover:text-white"
               }`}
             >
               {cat.name}
@@ -405,7 +478,7 @@ export default function CompetitionsPage() {
       </div>
 
       {/* Competitions Content */}
-      <div className="px-6 md:px-12 max-w-7xl mx-auto">
+      <div className="px-6 md:px-12 max-w-7xl mx-auto pb-32">
         {filteredCategories.map((category) => (
           <CompetitionSection key={category.id} category={category} />
         ))}

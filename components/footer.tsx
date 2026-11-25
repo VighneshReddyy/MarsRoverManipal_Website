@@ -1,7 +1,8 @@
 "use client"
 
 import { useEffect, useRef } from "react"
-import { Facebook, Instagram, Linkedin, Youtube, Mail, Phone, MapPin } from "lucide-react"
+import Link from "next/link"
+import { Linkedin, Instagram, Youtube, Mail, Phone, MapPin } from "lucide-react"
 
 export default function Footer() {
   const footerRef = useRef<HTMLDivElement>(null)
@@ -20,7 +21,6 @@ export default function Footer() {
     // Initial reflow
     requestAnimationFrame(() => {
       forceReflow()
-      // Double check after animations settle
       setTimeout(forceReflow, 150)
     })
     
@@ -36,62 +36,68 @@ export default function Footer() {
   return (
     <div
       ref={footerRef}
-      className="relative h-[400px] sm:h-[600px] lg:h-[800px] max-h-[800px] transition-opacity duration-200"
+      className="relative h-[420px] sm:h-[580px] lg:h-[720px] max-h-[720px] transition-opacity duration-200"
       style={{ clipPath: "polygon(0% 0, 100% 0%, 100% 100%, 0 100%)" }}
     >
-      <div className="relative h-[calc(100vh+400px)] sm:h-[calc(100vh+600px)] lg:h-[calc(100vh+800px)] -top-[100vh]">
-        <div className="h-[400px] sm:h-[600px] lg:h-[800px] sticky top-[calc(100vh-400px)] sm:top-[calc(100vh-600px)] lg:top-[calc(100vh-800px)]">
-          <div className="bg-neutral-900 py-6 sm:py-8 lg:py-12 px-4 sm:px-6 lg:px-12 h-full w-full flex flex-col justify-between">
+      <div className="relative h-[calc(100vh+420px)] sm:h-[calc(100vh+580px)] lg:h-[calc(100vh+720px)] -top-[100vh]">
+        <div className="h-[420px] sm:h-[580px] lg:h-[720px] sticky top-[calc(100vh-420px)] sm:top-[calc(100vh-580px)] lg:top-[calc(100vh-720px)]">
+          <div className="bg-[#06040a] border-t border-neutral-800/80 py-8 sm:py-12 px-6 sm:px-10 lg:px-16 h-full w-full flex flex-col justify-between text-neutral-300">
             <div className="grid grid-cols-1 md:grid-cols-3 gap-8 sm:gap-12 lg:gap-16">
               {/* CONTACT US */}
               <div className="flex flex-col gap-3 sm:gap-4">
-                <h3 className="mb-2 uppercase text-white text-sm sm:text-base font-bold tracking-wide">CONTACT US</h3>
+                <h3 className="mb-1 uppercase text-white text-xs sm:text-sm font-mono font-bold tracking-widest text-[#ff8a4c]">
+                  CONTACT US
+                </h3>
                 <a
                   href="mailto:marsrovermanipal@gmail.com"
                   className="flex items-center gap-2 text-neutral-300 hover:text-white transition-colors duration-300 text-xs sm:text-sm"
                 >
-                  <Mail className="w-4 h-4" />
+                  <Mail className="w-4 h-4 text-[#ff8a4c]" />
                   marsrovermanipal@gmail.com
                 </a>
-                <div className="flex flex-col gap-2 text-neutral-300 text-xs sm:text-sm">
+                <div className="flex flex-col gap-2.5 text-neutral-300 text-xs sm:text-sm">
                   <div className="flex items-center gap-2">
-                    <Phone className="w-4 h-4" />
-                    <span>Aarish Patel : <a href="tel:+919769572334" className="hover:text-white transition-colors">+91 97695 72334</a></span>
+                    <Phone className="w-4 h-4 text-neutral-400" />
+                    <span>Sanjana Puranik (Team Lead)</span>
                   </div>
                   <div className="flex items-center gap-2">
-                    <Phone className="w-4 h-4" />
-                    <span>Kedar Pradeep Vetal : <a href="tel:+919699975047" className="hover:text-white transition-colors">+91 96999 75047</a></span>
+                    <Phone className="w-4 h-4 text-neutral-400" />
+                    <span>Sanchit (Team Manager)</span>
                   </div>
                   <div className="flex items-center gap-2">
-                    <Phone className="w-4 h-4" />
-                    <span>Krishna Biranje : <a href="tel:+916362384646" className="hover:text-white transition-colors">+91 63623 84646</a></span>
+                    <Phone className="w-4 h-4 text-neutral-400" />
+                    <span>Dhruv Shankar Banerjee (Head of Operations)</span>
                   </div>
                 </div>
               </div>
 
               {/* ADDRESS */}
               <div className="flex flex-col gap-3 sm:gap-4">
-                <h3 className="mb-2 uppercase text-white text-sm sm:text-base font-bold tracking-wide">ADDRESS</h3>
+                <h3 className="mb-1 uppercase text-white text-xs sm:text-sm font-mono font-bold tracking-widest text-[#ff8a4c]">
+                  HEADQUARTERS
+                </h3>
                 <a
                   href="https://maps.app.goo.gl/gqBbFr8yTVhM9Ccz7"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="flex items-start gap-2 text-neutral-300 hover:text-white transition-colors text-xs sm:text-sm leading-relaxed"
                 >
-                  <MapPin className="w-4 h-4 mt-0.5 flex-shrink-0" />
-                  <span>Mars Rover Manipal, MAHE Automobile Workshop, MIT, Manipal, India - 576104</span>
+                  <MapPin className="w-4 h-4 mt-0.5 flex-shrink-0 text-[#ff8a4c]" />
+                  <span>Mars Rover Manipal, MAHE Automobile Workshop, MIT, Manipal, Karnataka, India - 576104</span>
                 </a>
               </div>
 
-              {/* FOLLOW US */}
+              {/* SOCIAL & QUICK LINKS */}
               <div className="flex flex-col gap-3 sm:gap-4">
-                <h3 className="mb-2 uppercase text-white text-sm sm:text-base font-bold tracking-wide">FOLLOW US</h3>
+                <h3 className="mb-1 uppercase text-white text-xs sm:text-sm font-mono font-bold tracking-widest text-[#ff8a4c]">
+                  CONNECT
+                </h3>
                 <div className="flex flex-col gap-2 text-neutral-300 text-xs sm:text-sm">
                   <a 
                     href="https://in.linkedin.com/company/marsrovermanipal" 
                     target="_blank" 
                     rel="noopener noreferrer"
-                    className="flex items-center gap-2 hover:text-white transition-colors"
+                    className="flex items-center gap-2 hover:text-[#ff8a4c] transition-colors"
                   >
                     <Linkedin className="w-4 h-4" />
                     LinkedIn
@@ -100,25 +106,16 @@ export default function Footer() {
                     href="https://www.instagram.com/marsrovermanipal/?hl=en" 
                     target="_blank" 
                     rel="noopener noreferrer"
-                    className="flex items-center gap-2 hover:text-white transition-colors"
+                    className="flex items-center gap-2 hover:text-[#ff8a4c] transition-colors"
                   >
                     <Instagram className="w-4 h-4" />
                     Instagram
                   </a>
                   <a 
-                    href="https://www.facebook.com/MarsRoverManipal/" 
+                    href="https://www.youtube.com/channel/UCaK6pI3w9U-5bK9gO2K0tYw" 
                     target="_blank" 
                     rel="noopener noreferrer"
-                    className="flex items-center gap-2 hover:text-white transition-colors"
-                  >
-                    <Facebook className="w-4 h-4" />
-                    Facebook
-                  </a>
-                  <a 
-                    href="https://www.youtube.com/marsrovermanipal" 
-                    target="_blank" 
-                    rel="noopener noreferrer"
-                    className="flex items-center gap-2 hover:text-white transition-colors"
+                    className="flex items-center gap-2 hover:text-[#ff8a4c] transition-colors"
                   >
                     <Youtube className="w-4 h-4" />
                     YouTube
@@ -126,23 +123,16 @@ export default function Footer() {
                 </div>
               </div>
             </div>
-            <div className="flex flex-col sm:flex-row justify-between items-start sm:items-end gap-4 sm:gap-0 mt-8">
-              <h1 className="text-[18vw] sm:text-[16vw] lg:text-[14vw] leading-[0.8] text-white font-bold tracking-tight">
-                TEAM
-              </h1>
-              <div className="flex flex-col items-end gap-1">
-                <p className="text-white text-xs sm:text-sm">marsrovermanipal©copyright</p>
-                <p className="text-white text-xs sm:text-sm">
-                  Website built by{" "}
-                  <a
-                    href="https://www.linkedin.com/in/aravinthakshan/"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="hover:text-neutral-300 transition-colors underline"
-                  >
-                    Aravinthakshan
-                  </a>
-                </p>
+
+            {/* Bottom Bar */}
+            <div className="border-t border-neutral-800/80 pt-6 flex flex-col sm:flex-row items-center justify-between gap-4 text-xs font-mono text-neutral-500">
+              <p>&copy; {new Date().getFullYear()} Mars Rover Manipal. All rights reserved.</p>
+              <div className="flex gap-6">
+                <Link href="/" className="hover:text-neutral-300 transition-colors">Home</Link>
+                <Link href="/team" className="hover:text-neutral-300 transition-colors">Team</Link>
+                <Link href="/competitions" className="hover:text-neutral-300 transition-colors">Competitions</Link>
+                <Link href="/photos" className="hover:text-neutral-300 transition-colors">Photos</Link>
+                <Link href="/alumni" className="hover:text-neutral-300 transition-colors">Alumni</Link>
               </div>
             </div>
           </div>
