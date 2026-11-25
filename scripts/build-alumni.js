@@ -41,9 +41,9 @@ const b26 = [...(sheets.Board || []), ...(sheets['Senior team'] || [])].map((m, 
 }));
 allAlumni['2026'] = b26;
 
-// 2025: From repo/mrm2021/src/pages/AboutUs/boardData.js
+// 2025: Local alumni records
 try {
-  const d25 = loadDataFile('C:/Users/vighn/Downloads/repo/mrm2021/src/pages/AboutUs/boardData.js');
+  const d25 = loadDataFile('lib/alumni-data/data25.js');
   allAlumni['2025'] = d25.map((m, i) => ({
     id: m.id || i + 1,
     name: m.name,
