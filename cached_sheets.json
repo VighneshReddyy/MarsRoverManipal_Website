@@ -2,7 +2,7 @@
   "Board": [
     {
       "name": "Sanjana Puranik",
-      "link to image": "https://drive.google.com/file/d/1GWFqUZHWWTQCEBkUoZgAQkjTK8HFpIx4/view?usp=sharing",
+      "link to image": "/board26/Sanjana.jpeg",
       "year": "2025-2026",
       "position": "Team Lead",
       "description": "",
@@ -13,7 +13,7 @@
     },
     {
       "name": "Sanchit",
-      "link to image": "https://drive.google.com/file/d/13zPqbIbVB944pGnHEtWN1pF0ZMMk6lxy/view?usp=sharing",
+      "link to image": "/board26/sanchit.jpg",
       "year": "2025-2026",
       "position": "Team Manager & Head of Mechanical Design and Manufacturing",
       "description": "",
@@ -24,7 +24,7 @@
     },
     {
       "name": "Dhruv Shankar Banerjee",
-      "link to image": "https://drive.google.com/file/d/1gcDwhbcPIa066XQDEOp4MxFScpavu0Zi/view?usp=sharing",
+      "link to image": "/board26/dhruv.jpg",
       "year": "2025-2026",
       "position": "Head of Operations",
       "description": "",
@@ -35,7 +35,7 @@
     },
     {
       "name": "Vighnesh Reddy",
-      "link to image": "https://drive.google.com/file/d/1STQmamRDzsbvYB0O8tP-it6BczrKjf9L/view?usp=drivesdk",
+      "link to image": "/board26/Vighnesh.jpeg",
       "year": "2025-2026",
       "position": "Head of AI & Automation",
       "description": "",
@@ -46,7 +46,7 @@
     },
     {
       "name": "Shreya Agarwal",
-      "link to image": "https://drive.google.com/file/d/1pHOXp-TK7xH1quur5pxDLUfcJMVjvLPp/view?usp=sharing",
+      "link to image": "/board26/shreya.jpeg",
       "year": "2025-2026",
       "position": "Head of Life Sciences",
       "description": "",
@@ -57,7 +57,7 @@
     },
     {
       "name": "Anakha Kurup",
-      "link to image": "",
+      "link to image": "/board26/anakha.jpg",
       "year": "2025-2026",
       "position": "Head of Research",
       "description": "",
@@ -159,10 +159,10 @@
   ],
   "Senior team": [
     {
-      "name": "Sarath",
+      "name": "Saisarath Krishnan",
       "link to image": "https://drive.google.com/file/d/1nIMZw0CkulF9I81Xi_jxcg76nXb4Xu0c/view?usp=drive_link",
       "year": "2025-2026",
-      "position": "Senior Team Member",
+      "position": "Senior Team Member - AIA",
       "description": "",
       "expertise": "",
       "linkedin": "https://www.linkedin.com/in/saisarath-krishnan-5293b8386",
@@ -170,10 +170,10 @@
       "website ( others )": ""
     },
     {
-      "name": "Anish",
+      "name": "Anish Trehan",
       "link to image": "https://drive.google.com/file/d/1A24N_JnzzbPNEi1c6fxjJd17R21IbDOt/view?usp=sharing",
       "year": "2025-2026",
-      "position": "Senior Team Member",
+      "position": "Senior Team Member - ECS",
       "description": "",
       "expertise": "",
       "linkedin": "",
@@ -181,10 +181,10 @@
       "website ( others )": ""
     },
     {
-      "name": "Vishwant",
+      "name": "Kotu Venkata Vishwanth",
       "link to image": "https://drive.google.com/file/d/1cPW1qVRYcdES6wT_0S0wC9Sca8XqXU4j/view?usp=drivesdk",
       "year": "2025-2026",
-      "position": "Senior Team Member",
+      "position": "Senior Team Member - ECS",
       "description": "",
       "expertise": "",
       "linkedin": "",

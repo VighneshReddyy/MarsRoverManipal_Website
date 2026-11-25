@@ -131,7 +131,6 @@ export default function Footer() {
                 <Link href="/" className="hover:text-neutral-300 transition-colors">Home</Link>
                 <Link href="/team" className="hover:text-neutral-300 transition-colors">Team</Link>
                 <Link href="/competitions" className="hover:text-neutral-300 transition-colors">Competitions</Link>
-                <Link href="/photos" className="hover:text-neutral-300 transition-colors">Photos</Link>
                 <Link href="/alumni" className="hover:text-neutral-300 transition-colors">Alumni</Link>
               </div>
             </div>

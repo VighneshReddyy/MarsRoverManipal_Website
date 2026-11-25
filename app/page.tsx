@@ -1128,7 +1128,6 @@ export default function Home() {
         <section className="about" id="about">
           <div className="wrap grid">
             <div className="copy">
-              <p className="eyebrow rv">01 &nbsp;Who we are</p>
               <h2 className="sp in">
                 <span className="w">
                   <span style={{ "--i": 0 } as any}>About</span>
@@ -1157,68 +1156,18 @@ export default function Home() {
                 navigation, mechanical design, electronics, and scientific astrobiology payloads.
               </p>
 
-              {/* Stats */}
+              {/* Established tag */}
               <div className="stats rv" style={{ "--d": 0.25 } as any}>
                 <div className="stat">
-                  <strong>
-                    60<small>+</small>
-                  </strong>
-                  <span>Active Engineers</span>
-                </div>
-                <div className="stat">
-                  <strong>
-                    10th<small></small>
-                  </strong>
-                  <span>Worldwide (ERC)</span>
-                </div>
-                <div className="stat">
-                  <strong>
-                    8<small>+</small>
-                  </strong>
-                  <span>Years of Exploration</span>
+                  <strong>Est.<small></small></strong>
+                  <span>2012</span>
                 </div>
               </div>
             </div>
 
             {/* 3D Medallion / Coin */}
             <figure className="fig" id="fig" ref={figRef}>
-              <svg className="ring" viewBox="0 0 100 100">
-                <circle
-                  cx="50"
-                  cy="50"
-                  r="48.5"
-                  fill="none"
-                  stroke="rgba(255,170,120,.4)"
-                  strokeWidth="0.25"
-                  strokeDasharray="0.6 1.8"
-                />
-                <circle
-                  cx="50"
-                  cy="50"
-                  r="42"
-                  fill="none"
-                  stroke="rgba(255,170,120,.18)"
-                  strokeWidth="0.2"
-                />
-                <circle cx="50" cy="1.5" r="1" fill="#ff8a4c" />
-              </svg>
-              <svg className="ring r" viewBox="0 0 100 100">
-                <circle
-                  cx="50"
-                  cy="50"
-                  r="45"
-                  fill="none"
-                  stroke="rgba(255,170,120,.28)"
-                  strokeWidth="0.2"
-                  strokeDasharray="14 6 2 6"
-                />
-                <circle cx="95" cy="50" r="0.8" fill="#ffd0a8" />
-              </svg>
               <div className="glow"></div>
-              <i className="bk a"></i>
-              <i className="bk b"></i>
-              <i className="bk c"></i>
-              <i className="bk d"></i>
 
               <div className="imgw">
                 <div className="stage">
@@ -1251,7 +1200,7 @@ export default function Home() {
           <div className="wrap">
             <div className="head">
               <div>
-                <p className="eyebrow rv">02 &nbsp;In the press</p>
+                <p className="eyebrow rv">In the press</p>
                 <h2 className="sp in" style={{ marginBottom: 0 }}>
                   <span className="w">
                     <span style={{ "--i": 0 } as any}>News</span>

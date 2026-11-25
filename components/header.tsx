@@ -10,7 +10,6 @@ export default function Header() {
     { label: "HOME", href: "/" },
     { label: "THE TEAM", href: "/team" },
     { label: "COMPETITIONS", href: "/competitions" },
-    { label: "PHOTOS", href: "/photos" },
     { label: "ALUMNI", href: "/alumni" },
     { label: "RESEARCH", href: "/research" },
     { label: "SPONSORSHIP", href: "/sponsorship" },

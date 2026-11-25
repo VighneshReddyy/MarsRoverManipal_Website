@@ -6,8 +6,7 @@ import Header from "@/components/header"
 import Footer from "@/components/footer"
 import { TiltCard } from "@/components/ui/tilt-card"
 import { motion } from "framer-motion"
-import { useState } from "react"
-import { Linkedin, Github, Globe, GraduationCap, Building2, Calendar, Award, Shield, Users } from "lucide-react"
+import { Linkedin, Github, Globe, Building2, Award } from "lucide-react"
 import { facultyAdvisors, type FacultyAdvisor } from "@/lib/faculty-advisors-data"
 import cachedSheets from "@/cached_sheets.json"
 
@@ -74,20 +73,9 @@ function TeamSection({ title, subtitle, members, isBoard = false, badgeText }: T
         transition={{ duration: 0.8 }}
       >
         <div className="text-center mb-12">
-          {badgeText && (
-            <div className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full border border-neutral-800 bg-neutral-900/80 text-xs font-mono tracking-widest text-[#ff8a4c] uppercase mb-3">
-              {isBoard ? <Shield size={13} /> : <Users size={13} />}
-              {badgeText}
-            </div>
-          )}
           <h2 className={`font-bold tracking-wider uppercase ${isBoard ? "text-3xl md:text-4xl text-white" : "text-2xl md:text-3xl text-neutral-200"}`}>
             {title}
           </h2>
-          {subtitle && (
-            <p className="text-neutral-400 text-xs md:text-sm mt-2 max-w-2xl mx-auto leading-relaxed">
-              {subtitle}
-            </p>
-          )}
         </div>
 
         <div
@@ -116,12 +104,6 @@ function TeamSection({ title, subtitle, members, isBoard = false, badgeText }: T
                     : "border-neutral-800/80 hover:border-neutral-700 hover:shadow-xl"
                 }`}
               >
-                {/* Board distinction indicator */}
-                {isBoard && (
-                  <div className="absolute top-3 right-3 px-2 py-0.5 rounded-full bg-[#ff8a4c]/10 border border-[#ff8a4c]/30 text-[10px] font-mono tracking-wider text-[#ff8a4c] uppercase">
-                    Board
-                  </div>
-                )}
 
                 {/* Circular Avatar Frame */}
                 <div
@@ -324,9 +306,6 @@ export default function TeamPage() {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8 }}
         >
-          <div className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full border border-neutral-800 bg-neutral-900/60 text-xs font-mono tracking-widest text-[#ff8a4c] uppercase mb-4">
-            <Users size={14} /> Active Team Roster
-          </div>
           <h1 className="text-4xl md:text-6xl font-bold mb-4 tracking-tight">
             Meet the Team
           </h1>
@@ -334,44 +313,26 @@ export default function TeamPage() {
             Meet the engineers, designers, researchers, and innovators building next-generation rovers
             for extraterrestrial exploration.
           </p>
-
-          {/* Link banner to 2026 Alumni */}
-          <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full border border-neutral-800 bg-neutral-900/80 text-xs font-mono text-neutral-300">
-            <span>Looking for former Board & Senior members?</span>
-            <Link
-              href="/alumni"
-              className="text-[#ff8a4c] hover:underline flex items-center gap-1 font-semibold"
-            >
-              <GraduationCap size={14} />
-              View 2026 Alumni &rarr;
-            </Link>
-          </div>
         </motion.div>
       </div>
 
-      {/* 1. Executive Board Section */}
+      {/* 1. Board Section */}
       <TeamSection
-        title="Executive Board"
-        subtitle="The executive leadership driving our current planetary exploration mission, mechanical design, AI & automation, life sciences, operations, and research."
+        title="Board"
         members={boardMembers}
         isBoard
-        badgeText="Executive Leadership"
       />
 
       {/* 2. Senior Team Members Section */}
       <TeamSection
         title="Senior Team Members"
-        subtitle="Experienced engineers spearheading subsystem execution, hardware integration, and mentorship across the team."
         members={seniorTeamMembers}
-        badgeText="Senior Engineering"
       />
 
-      {/* 3. Research Team Section: Category 'Senior Researchers' */}
+      {/* 3. Senior Researchers Section */}
       <TeamSection
         title="Senior Researchers"
-        subtitle="Pioneering interplanetary scientific analysis, biosensing payloads, astrobiological assays, and autonomous planetary instrumentation."
         members={seniorResearchers}
-        badgeText="Research Division"
       />
 
       {/* 4. Faculty Advisors Section */}

@@ -16,6 +16,7 @@ interface Competition {
   image: string
   website?: string
   video?: string
+  photos?: string[]
 }
 
 interface CompetitionCategory {
@@ -44,6 +45,7 @@ const competitionData: CompetitionCategory[] = [
         info: "At the European Rover Challenge 2026 hosted in Poland, Mars Rover Manipal achieved 10th place worldwide among elite collegiate robotics teams, showcasing an advanced five-bar suspension rover with autonomous waypoint navigation, astrobiology life-detection, and precision manipulator servicing.",
         image: "/photos/erc2022-team-poland.webp",
         website: "https://roverchallenge.eu/en/main-page/",
+        photos: ["/photos/erc2022-team-poland.webp", "/photos/erc2021-podium.webp", "/comp/ercteam22.webp"],
       },
       {
         id: 2,
@@ -53,6 +55,7 @@ const competitionData: CompetitionCategory[] = [
         info: "Mars Rover Manipal secured 10th place globally at the European Rover Challenge 2025. Competing against international robotics institutions, the team demonstrated robust telemetry, modular electronics architecture, and specialized astrobiology payloads.",
         image: "/photos/erc2021-podium.webp",
         website: "https://roverchallenge.eu/en/main-page/",
+        photos: ["/photos/erc2021-podium.webp", "/comp/ERC_TEAM.webp"],
       },
       {
         id: 3,
@@ -62,6 +65,7 @@ const competitionData: CompetitionCategory[] = [
         info: "Mars Rover Manipal finished 2nd out of 28 teams from around the world in the remote edition of the European Rover Challenge (ERC) 2022. In addition, we were awarded The Best Performing Team in the Science, Maintenance and Presentation Tasks.",
         image: "/comp/ercteam22.webp",
         website: "https://roverchallenge.eu/en/main-page/",
+        photos: ["/comp/ercteam22.webp", "/photos/erc2022-team-poland.webp"],
       },
       {
         id: 4,
@@ -71,6 +75,7 @@ const competitionData: CompetitionCategory[] = [
         info: "Mars Rover Manipal finished 4th out of 34 teams from around the world in the remote edition of the European Rover Challenge (ERC). In addition, we received an honourable mention as the best performing team in the presentation task.",
         image: "/comp/ERC_TEAM.webp",
         website: "https://roverchallenge.eu/en/main-page/",
+        photos: ["/comp/ERC_TEAM.webp", "/photos/erc2021-podium.webp"],
       },
     ],
   },
@@ -88,8 +93,9 @@ const competitionData: CompetitionCategory[] = [
         year: "2026",
         position: "7th Place",
         info: "In the International Rover Challenge 2026, Mars Rover Manipal competed against premier collegiate teams in intense field maneuvers, securing 7th place overall with strong showings in autonomous traversal and manipulation tasks.",
-        image: "/photos/irc-competition-field.webp",
+        image: "/irc/irc2024.jpg",
         website: "https://www.spaceroboticssociety.org/events/international-rover-challenge/",
+        photos: ["/irc/irc2024.jpg", "/irc/image4.jpg", "/irc/image5.jpg"],
       },
       {
         id: 2,
@@ -97,8 +103,9 @@ const competitionData: CompetitionCategory[] = [
         year: "2025",
         position: "1st Place",
         info: "Mars Rover Manipal clinched 1st Place at the International Rover Challenge 2025, outperforming international teams across all four operational challenges including autonomous navigation, science sample collection, and extreme terrain traversal.",
-        image: "/irc/irc2024.jpg",
+        image: "/photos/irc2024-first-place.jpg",
         website: "https://www.spaceroboticssociety.org/events/international-rover-challenge/",
+        photos: ["/photos/irc2024-first-place.jpg", "/irc/irc2024.jpg"],
       },
       {
         id: 3,
@@ -108,6 +115,7 @@ const competitionData: CompetitionCategory[] = [
         info: "Mars Rover Manipal secured 1st place among 25 global qualifiers at the International Rover Challenge 2024, held at PSG College of Technology in Coimbatore from January 24th to 29th. Organized by SproS, this accomplishment underscores the team's technical prowess and positions them prominently in the global space exploration community.",
         image: "/irc/irc2024.jpg",
         website: "https://www.spaceroboticssociety.org/events/international-rover-challenge/",
+        photos: ["/irc/irc2024.jpg", "/photos/irc2024-first-place.jpg", "/irc/image4.jpg"],
       },
       {
         id: 4,
@@ -117,6 +125,7 @@ const competitionData: CompetitionCategory[] = [
         info: "Indian Rover Challenge (IRC) 2019, the second edition, featured design challenges and technicalities, encouraging students from all over the world to provide solutions and move closer towards the next phases of space exploration. It was organized by the students of Mars Rover Manipal in association with Manipal Academy of Higher Education and the Mars Society.",
         image: "/irc/image1.jpg",
         website: "https://southasia.marssociety.org/indianroverchallenge/irc-2019/",
+        photos: ["/irc/image1.jpg", "/irc/image5.jpg"],
       },
       {
         id: 5,
@@ -126,6 +135,7 @@ const competitionData: CompetitionCategory[] = [
         info: "Mars Rover Manipal participated in IRC 2018 along with teams from all over Asia. The event was organized by ISTE VIT and Creative Labs at Vellore Institute of Technology. Mars Rover Manipal performed very well and were declared winners with a final score of 616 points out of 760, beating the second closest opponent by a margin of 129 points.",
         image: "/irc/image3.webp",
         website: "https://southasia.marssociety.org/irdc/",
+        photos: ["/irc/image3.webp", "/irc/image1.jpg"],
       },
     ],
   },
@@ -145,6 +155,7 @@ const competitionData: CompetitionCategory[] = [
         info: "The 18th edition of University Rover Challenge was held at the Mars Desert Research Station in Hanksville, Utah from 29th May to June 1st 2024. Mars Rover Manipal was able to maintain its streak of being the best rover team from India for its 7th consecutive year.",
         image: "/urc2024/urc2024.jpg",
         video: "https://www.youtube.com/embed/CnRiPZGofaw",
+        photos: ["/urc2024/team.jpg", "/urc2024/rdo1.jpg", "/urc2024/rdo2.jpg", "/urc2024/esm1.jpg"],
       },
       {
         id: 2,
@@ -154,6 +165,7 @@ const competitionData: CompetitionCategory[] = [
         info: "The 16th edition of University Rover Challenge was held at the Mars Desert Research Station in Hanksville, Utah from June 1st to June 4th 2022. MRM was also the recipient of the prestigious John Barainca award for the best science team in the competition, securing an 85/100 in this challenging mission.",
         image: "/urc2022/urc2022-5.webp",
         video: "https://www.youtube.com/embed/tgAOEiIUJ5k",
+        photos: ["/urc2022/urc2022-1.webp", "/urc2022/urc2022-2.webp", "/urc2022/urc2022-3.webp", "/urc2022/urc2022-5.webp"],
       },
       {
         id: 3,
@@ -163,6 +175,7 @@ const competitionData: CompetitionCategory[] = [
         info: "The 14th edition of University Rover Challenge was cancelled due to the Corona virus Pandemic. MRM stood 1st in India, 2nd in Asia and 7th worldwide based on SAR results. We also continued our run of being the best Indian Rover Team for the fourth consecutive year.",
         image: "/comp/2020Rover.webp",
         video: "https://www.youtube.com/embed/V22SHOJQx4I",
+        photos: ["/comp/2020Rover.webp", "/photos/photos20-team-photo.webp", "/photos/photos20-rover-autonomous.webp"],
       },
       {
         id: 4,
@@ -172,6 +185,7 @@ const competitionData: CompetitionCategory[] = [
         info: "MRM secured the 8th rank globally which placed us as the best rover team in Asia. MRM was the recipient of the prestigious Barainca award for the best science team in the competition, securing a 95/100 in this challenging mission.",
         image: "/comp/urc2019.webp",
         video: "https://www.youtube.com/embed/vY86gCyUFQ8",
+        photos: ["/comp/urc2019.webp", "/photos/photos19-quarry-test.jpg", "/photos/photos19-night-test.jpg"],
       },
       {
         id: 5,
@@ -181,6 +195,7 @@ const competitionData: CompetitionCategory[] = [
         info: "MRM secured a world rank of 7 in URC 2018. Our rover Airawat once again placed us as India's best and Asia's second best rover team at URC.",
         image: "/comp/urc2018.webp",
         video: "https://www.youtube.com/embed/8QmRq4NSOIg",
+        photos: ["/comp/urc2018.webp"],
       },
       {
         id: 6,
@@ -190,6 +205,7 @@ const competitionData: CompetitionCategory[] = [
         info: "We achieved 8th position all over the world. Our rover was the best performer from India and Asia. Our biggest highlight was the score of 100 out of 100 in the Science Cache Task.",
         image: "/comp/rover17.jpeg",
         video: "https://www.youtube.com/embed/6Mr8owXfWoc",
+        photos: ["/comp/rover17.jpeg"],
       },
       {
         id: 7,
@@ -199,6 +215,7 @@ const competitionData: CompetitionCategory[] = [
         info: "This was the first time we were participating in URC. 63 teams registered for the competition and 28 were selected. We stood 13th all over the world. Our rover was ranked second best in India and Asia.",
         image: "/comp/rover16.webp",
         video: "https://www.youtube.com/embed/cG70pC12jTU",
+        photos: ["/comp/rover16.webp"],
       },
     ],
   },
@@ -218,6 +235,7 @@ const competitionData: CompetitionCategory[] = [
         info: "Mars Rover Manipal bagged the 4th position out of 20 teams from four countries in the fourth edition of the International Rover Design Challenge (IRDC), hosted by the Space Robotics Society (SPROS).",
         image: "/comp/irdc2024.jpg",
         website: "https://www.spaceroboticssociety.org/events/international-rover-challenge/",
+        photos: ["/comp/irdc2024.jpg", "/comp/irdc2022render.webp"],
       },
       {
         id: 2,
@@ -227,6 +245,7 @@ const competitionData: CompetitionCategory[] = [
         info: "Mars Rover Manipal bagged the 2nd position out of 24 teams from four countries in the third edition of the International Rover Design Challenge (IRDC), hosted by the Space Robotics Society (SPROS).",
         image: "/comp/irdc2022render.webp",
         website: "https://www.spaceroboticssociety.org/events/international-rover-challenge/",
+        photos: ["/comp/irdc2022render.webp", "/comp/irdc2024.jpg"],
       },
       {
         id: 3,
@@ -236,6 +255,7 @@ const competitionData: CompetitionCategory[] = [
         info: "Mars Rover Manipal bagged the 3rd position out of 32 teams from four countries in the second edition of the International Rover Design Challenge (IRDC), hosted by Mars Society South Asia (MSSA).",
         image: "/comp/IRDC_20211.webp",
         website: "https://southasia.marssociety.org/irdc/",
+        photos: ["/comp/IRDC_20211.webp", "/comp/IRDCrover1.webp"],
       },
       {
         id: 4,
@@ -245,6 +265,7 @@ const competitionData: CompetitionCategory[] = [
         info: "Mars Rover Manipal bagged the 1st position in IRDC 2020. 28 teams from 7 countries had taken part. MRM scored 816.5 points for the submission, securing the first position by a margin of 15 points.",
         image: "/comp/IRDCrover1.webp",
         website: "https://southasia.marssociety.org/irdc/",
+        photos: ["/comp/IRDCrover1.webp", "/comp/IRDC_20211.webp"],
       },
     ],
   },
@@ -264,6 +285,7 @@ const competitionData: CompetitionCategory[] = [
         info: "Mars Rover Manipal bagged the 3rd position worldwide in IMH 2020.",
         image: "/irc/IMH.webp",
         website: "https://southasia.marssociety.org/irdc/",
+        photos: ["/irc/IMH.webp"],
       },
     ],
   },
@@ -365,6 +387,27 @@ function CompetitionCard({ competition, index }: { competition: Competition; ind
             </a>
           )}
         </div>
+
+        {/* Inline Photo Strip */}
+        {competition.photos && competition.photos.length > 0 && (
+          <div className="mt-4 flex gap-2 overflow-x-auto pb-1 scrollbar-thin scrollbar-thumb-neutral-700">
+            {competition.photos.map((photo, i) => (
+              <div
+                key={i}
+                className="relative flex-shrink-0 w-20 h-14 rounded-lg overflow-hidden border border-neutral-800 group/ph cursor-pointer hover:border-[#ff8a4c]/60 transition-colors"
+                onClick={() => window.open(photo, "_blank")}
+              >
+                <Image
+                  src={photo}
+                  alt={`${competition.name} photo ${i + 1}`}
+                  fill
+                  className="object-cover transition-transform duration-300 group-hover/ph:scale-110"
+                />
+                <div className="absolute inset-0 bg-black/20 group-hover/ph:bg-black/0 transition-colors" />
+              </div>
+            ))}
+          </div>
+        )}
       </div>
     </motion.div>
   )
