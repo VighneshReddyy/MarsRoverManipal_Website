@@ -27,7 +27,7 @@ function loadDataFile(path) {
 const allAlumni = {};
 
 // 2026: Board & Senior team from cached_sheets.json
-const sheets = JSON.parse(fs.readFileSync('cached_sheets.json', 'utf8'));
+const sheets = JSON.parse(fs.readFileSync('lib/cached_sheets.json', 'utf8'));
 const b26 = [...(sheets.Board || []), ...(sheets['Senior team'] || [])].map((m, i) => ({
   id: i + 1,
   name: m.name,

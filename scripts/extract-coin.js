@@ -1,5 +1,5 @@
 const fs = require('fs');
-const content = fs.readFileSync('indexnew.html', 'utf8');
+const content = fs.readFileSync('archive/legacy-site/indexnew.html', 'utf8');
 const searchStr = '<div class="face f"><img src="';
 const idx = content.indexOf(searchStr);
 if (idx !== -1) {

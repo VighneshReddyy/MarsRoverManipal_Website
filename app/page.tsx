@@ -582,25 +582,26 @@ export default function Home() {
           padding-top: 28px;
           border-top: 1px solid rgba(255, 255, 255, 0.1);
         }
-        .stat strong {
-          display: block;
-          font-weight: 500;
-          font-size: clamp(28px, 3.2vw, 46px);
-          letter-spacing: -0.03em;
-          line-height: 1;
-        }
-        .stat strong small {
-          font-size: 0.5em;
-          color: var(--acc);
-          margin-left: 2px;
-        }
         .stat > span {
           display: block;
-          margin-top: 10px;
-          font: 400 10.5px 'IBM Plex Mono', monospace;
-          letter-spacing: 0.14em;
+          margin-bottom: 8px;
+          font: 400 11px 'IBM Plex Mono', monospace;
+          letter-spacing: 0.16em;
           text-transform: uppercase;
           color: var(--dim);
+        }
+        .stat strong {
+          display: block;
+          font-size: clamp(68px, 8vw, 112px);
+          font-weight: 700;
+          letter-spacing: -0.06em;
+          line-height: 0.95;
+          color: #ff8a3d;
+          background: linear-gradient(135deg, #fff0cc 0%, #ffb04f 28%, #ff6a23 55%, #ffd394 76%, #f57832 100%);
+          background-clip: text;
+          -webkit-background-clip: text;
+          -webkit-text-fill-color: transparent;
+          filter: drop-shadow(0 0 20px rgba(255, 112, 37, 0.32));
         }
         .fig {
           position: relative;
@@ -1159,8 +1160,8 @@ export default function Home() {
               {/* Established tag */}
               <div className="stats rv" style={{ "--d": 0.25 } as any}>
                 <div className="stat">
-                  <strong>Est.<small></small></strong>
-                  <span>2012</span>
+                  <span>Established in</span>
+                  <strong>2012</strong>
                 </div>
               </div>
             </div>

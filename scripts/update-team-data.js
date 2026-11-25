@@ -69,14 +69,14 @@ fs.writeFileSync(alumniPath, JSON.stringify(alumni, null, 2));
 console.log('Updated lib/alumni.json with 2026 Senior Researchers. Total 2026:', alumni['2026'].length);
 
 // 2. Update cached_sheets.json
-const sheetsPath = 'cached_sheets.json';
+const sheetsPath = 'lib/cached_sheets.json';
 const sheets = JSON.parse(fs.readFileSync(sheetsPath, 'utf8'));
 
 // Board restructuring
 sheets['Board'] = [
   {
     name: 'Sanjana Puranik',
-    'link to image': 'https://drive.google.com/file/d/1GWFqUZHWWTQCEBkUoZgAQkjTK8HFpIx4/view?usp=sharing',
+    'link to image': '/board26/Sanjana.jpeg',
     year: '2025-2026',
     position: 'Team Lead',
     description: '',
@@ -87,7 +87,7 @@ sheets['Board'] = [
   },
   {
     name: 'Sanchit',
-    'link to image': 'https://drive.google.com/file/d/13zPqbIbVB944pGnHEtWN1pF0ZMMk6lxy/view?usp=sharing',
+    'link to image': '/board26/sanchit.jpg',
     year: '2025-2026',
     position: 'Team Manager & Head of Mechanical Design and Manufacturing',
     description: '',
@@ -98,7 +98,7 @@ sheets['Board'] = [
   },
   {
     name: 'Dhruv Shankar Banerjee',
-    'link to image': 'https://drive.google.com/file/d/1gcDwhbcPIa066XQDEOp4MxFScpavu0Zi/view?usp=sharing',
+    'link to image': '/board26/dhruv.jpeg',
     year: '2025-2026',
     position: 'Head of Operations',
     description: '',
@@ -109,7 +109,7 @@ sheets['Board'] = [
   },
   {
     name: 'Vighnesh Reddy',
-    'link to image': 'https://drive.google.com/file/d/1STQmamRDzsbvYB0O8tP-it6BczrKjf9L/view?usp=drivesdk',
+    'link to image': '/board26/Vighnesh.jpeg',
     year: '2025-2026',
     position: 'Head of AI & Automation',
     description: '',
@@ -120,7 +120,7 @@ sheets['Board'] = [
   },
   {
     name: 'Shreya Agarwal',
-    'link to image': 'https://drive.google.com/file/d/1pHOXp-TK7xH1quur5pxDLUfcJMVjvLPp/view?usp=sharing',
+    'link to image': '/board26/shreya.jpeg',
     year: '2025-2026',
     position: 'Head of Life Sciences',
     description: '',
@@ -131,7 +131,7 @@ sheets['Board'] = [
   },
   {
     name: 'Anakha Kurup',
-    'link to image': '',
+    'link to image': '/board26/anakha.jpg',
     year: '2025-2026',
     position: 'Head of Research',
     description: '',

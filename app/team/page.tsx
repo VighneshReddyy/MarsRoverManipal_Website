@@ -8,7 +8,7 @@ import { TiltCard } from "@/components/ui/tilt-card"
 import { motion } from "framer-motion"
 import { Linkedin, Github, Globe, Building2, Award } from "lucide-react"
 import { facultyAdvisors, type FacultyAdvisor } from "@/lib/faculty-advisors-data"
-import cachedSheets from "@/cached_sheets.json"
+import cachedSheets from "@/lib/cached_sheets.json"
 
 interface TeamMember {
   name: string
