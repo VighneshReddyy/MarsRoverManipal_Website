@@ -346,6 +346,7 @@ function getPositionBadge(position: string) {
 
 function CompetitionCard({ competition, index }: { competition: Competition; index: number }) {
   const badge = getPositionBadge(competition.position)
+  const [selectedPhoto, setSelectedPhoto] = useState<string | null>(null)
 
   return (
     <motion.div
@@ -405,7 +406,7 @@ function CompetitionCard({ competition, index }: { competition: Competition; ind
             </a>
           )}
           {competition.photos && competition.photos.length > 0 && (
-            <Dialog>
+            <Dialog onOpenChange={(open) => { if (!open) setSelectedPhoto(null) }}>
               <DialogTrigger asChild>
                 <button className="inline-flex items-center gap-1.5 rounded-md border border-[#ff8a4c]/40 px-3 py-1.5 text-xs font-mono text-[#ff8a4c] transition-colors hover:bg-[#ff8a4c]/10">
                   <Images className="w-3.5 h-3.5" /> Photos
@@ -413,12 +414,17 @@ function CompetitionCard({ competition, index }: { competition: Competition; ind
               </DialogTrigger>
               <DialogContent className="max-h-[85vh] max-w-4xl overflow-y-auto border-neutral-800 bg-neutral-950 text-white">
                 <DialogHeader><DialogTitle>{competition.name} Photos</DialogTitle></DialogHeader>
+                {selectedPhoto && (
+                  <div className="relative aspect-[4/3] max-h-[55vh] rounded-lg bg-neutral-900">
+                    <Image src={selectedPhoto} alt={`${competition.name} selected photo`} fill className="object-contain" sizes="90vw" />
+                  </div>
+                )}
                 <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
                   {competition.photos.map((photo, i) => (
-                    <a key={photo} href={photo} target="_blank" rel="noopener noreferrer" className="relative block aspect-[4/3] overflow-hidden rounded-lg bg-neutral-900">
+                    <button key={photo} type="button" onClick={() => setSelectedPhoto(photo)} aria-label={`View ${competition.name} photo ${i + 1}`} className="relative block aspect-[4/3] overflow-hidden rounded-lg bg-neutral-900 focus-visible:outline focus-visible:outline-2 focus-visible:outline-[#ff8a4c]">
                       <Image src={photo} alt={`${competition.name} photo ${i + 1}`} fill className="object-contain" sizes="(max-width: 640px) 90vw, 40vw" />
-                    </a>
-                  ))}
+                    </button>
+                  ))
                 </div>
               </DialogContent>
             </Dialog>

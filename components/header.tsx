@@ -1,4 +1,4 @@
-﻿"use client"
+"use client"
 
 import Link from "next/link"
 import { usePathname } from "next/navigation"
@@ -9,7 +9,6 @@ const navItems = [
   { label: "Home", href: "/" },
   { label: "The Team", href: "/team" },
   { label: "Competition", href: "/competitions" },
-  { label: "Photos", href: "/photos" },
   { label: "Alumni", href: "/alumni" },
   { label: "Research", href: "/research" },
   { label: "Sponsorships", href: "/sponsorship" },

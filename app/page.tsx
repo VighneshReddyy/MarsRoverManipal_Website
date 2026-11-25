@@ -1009,9 +1009,6 @@ export default function Home() {
             <Link href="/competitions">Competition</Link>
           </li>
           <li>
-            <Link href="/photos">Photos</Link>
-          </li>
-          <li>
             <Link href="/alumni">Alumni</Link>
           </li>
           <li>
@@ -1055,13 +1052,6 @@ export default function Home() {
             className="text-lg font-mono tracking-wider text-neutral-200 hover:text-[#ff8a4c] transition-colors"
           >
             COMPETITIONS
-          </Link>
-          <Link
-            href="/photos"
-            onClick={() => setMobileMenuOpen(false)}
-            className="text-lg font-mono tracking-wider text-neutral-200 hover:text-[#ff8a4c] transition-colors"
-          >
-            PHOTOS
           </Link>
           <Link
             href="/alumni"
@@ -1288,9 +1278,6 @@ export default function Home() {
               </Link>
               <Link href="/competitions" className="hover:text-white transition-colors">
                 Competitions
-              </Link>
-              <Link href="/photos" className="hover:text-white transition-colors">
-                Photos
               </Link>
               <Link href="/alumni" className="hover:text-white transition-colors">
                 Alumni
